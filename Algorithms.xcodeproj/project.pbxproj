@@ -15,9 +15,16 @@
 		7005809A1BA65E85008B0797 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700580981BA65E85008B0797 /* LaunchScreen.xib */; };
 		700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */; };
 		706C07061BA6618B00D5CA36 /* DigitSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 706C07051BA6618B00D5CA36 /* DigitSum.m */; };
-		70BC44501BA772310011AFF4 /* GraphSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC444F1BA772310011AFF4 /* GraphSpec.m */; };
-		70BC44531BA772950011AFF4 /* Graphs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC44521BA772950011AFF4 /* Graphs.m */; };
+		70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */; };
+		70BC44531BA772950011AFF4 /* BreadthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC44521BA772950011AFF4 /* BreadthFirstSearch.m */; };
 		70BC44561BA772C20011AFF4 /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC44551BA772C20011AFF4 /* GraphNode.m */; };
+		70CAF2B31BA79F0500307561 /* DepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2B21BA79F0500307561 /* DepthFirstSearch.m */; };
+		70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */; };
+		70CAF2B81BA7A7AB00307561 /* GraphEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2B71BA7A7AB00307561 /* GraphEdge.m */; };
+		70CAF2BC1BA7B3A900307561 /* GraphSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2BB1BA7B3A900307561 /* GraphSort.m */; };
+		70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */; };
+		70CAF2C11BA85BA800307561 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C01BA85BA800307561 /* BinarySearch.m */; };
+		70CAF2C41BA85E9C00307561 /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C31BA85E9C00307561 /* NSArray+Helpers.m */; };
 		70D048FB1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D048FA1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m */; };
 		E77707D8B5C3681B00059BDC /* DynamicProg.m in Sources */ = {isa = PBXBuildFile; fileRef = E777057D005346C427489807 /* DynamicProg.m */; };
 		FBB3952C1B3BA8141A0A2F20 /* Pods_AlgorithmsSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -54,11 +61,23 @@
 		700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicProgSpecs.m; sourceTree = "<group>"; };
 		706C07041BA6618B00D5CA36 /* DigitSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitSum.h; sourceTree = "<group>"; };
 		706C07051BA6618B00D5CA36 /* DigitSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitSum.m; sourceTree = "<group>"; };
-		70BC444F1BA772310011AFF4 /* GraphSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSpec.m; sourceTree = "<group>"; };
-		70BC44511BA772950011AFF4 /* Graphs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphs.h; sourceTree = "<group>"; };
-		70BC44521BA772950011AFF4 /* Graphs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graphs.m; sourceTree = "<group>"; };
+		70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSearchSpec.m; sourceTree = "<group>"; };
+		70BC44511BA772950011AFF4 /* BreadthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreadthFirstSearch.h; sourceTree = "<group>"; };
+		70BC44521BA772950011AFF4 /* BreadthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreadthFirstSearch.m; sourceTree = "<group>"; };
 		70BC44541BA772C20011AFF4 /* GraphNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphNode.h; sourceTree = "<group>"; };
 		70BC44551BA772C20011AFF4 /* GraphNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphNode.m; sourceTree = "<group>"; };
+		70CAF2B11BA79F0500307561 /* DepthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepthFirstSearch.h; sourceTree = "<group>"; };
+		70CAF2B21BA79F0500307561 /* DepthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepthFirstSearch.m; sourceTree = "<group>"; };
+		70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSortingSpec.m; sourceTree = "<group>"; };
+		70CAF2B61BA7A7AB00307561 /* GraphEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphEdge.h; sourceTree = "<group>"; };
+		70CAF2B71BA7A7AB00307561 /* GraphEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphEdge.m; sourceTree = "<group>"; };
+		70CAF2BA1BA7B3A900307561 /* GraphSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphSort.h; sourceTree = "<group>"; };
+		70CAF2BB1BA7B3A900307561 /* GraphSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSort.m; sourceTree = "<group>"; };
+		70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchSpec.m; sourceTree = "<group>"; };
+		70CAF2BF1BA85BA800307561 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		70CAF2C01BA85BA800307561 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
+		70CAF2C21BA85E9C00307561 /* NSArray+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helpers.h"; sourceTree = "<group>"; };
+		70CAF2C31BA85E9C00307561 /* NSArray+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helpers.m"; sourceTree = "<group>"; };
 		70D048F91BA7840F00CDDD90 /* NSMutableArray+QueueHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueHelper.h"; sourceTree = "<group>"; };
 		70D048FA1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueHelper.m"; sourceTree = "<group>"; };
 		AAE63D07517EB83147E4928E /* Pods-AlgorithmsSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsSpecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsSpecs/Pods-AlgorithmsSpecs.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +145,7 @@
 		700580881BA65E85008B0797 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				70CAF2B91BA7AAD200307561 /* Graph */,
 				70D048F91BA7840F00CDDD90 /* NSMutableArray+QueueHelper.h */,
 				70D048FA1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m */,
 				E777057D005346C427489807 /* DynamicProg.m */,
@@ -140,10 +160,10 @@
 				700580891BA65E85008B0797 /* Supporting Files */,
 				706C07041BA6618B00D5CA36 /* DigitSum.h */,
 				706C07051BA6618B00D5CA36 /* DigitSum.m */,
-				70BC44511BA772950011AFF4 /* Graphs.h */,
-				70BC44521BA772950011AFF4 /* Graphs.m */,
-				70BC44541BA772C20011AFF4 /* GraphNode.h */,
-				70BC44551BA772C20011AFF4 /* GraphNode.m */,
+				70CAF2BF1BA85BA800307561 /* BinarySearch.h */,
+				70CAF2C01BA85BA800307561 /* BinarySearch.m */,
+				70CAF2C21BA85E9C00307561 /* NSArray+Helpers.h */,
+				70CAF2C31BA85E9C00307561 /* NSArray+Helpers.m */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -160,9 +180,10 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
+				70CAF2B01BA79A1600307561 /* Graphs */,
 				700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */,
-				70BC444F1BA772310011AFF4 /* GraphSpec.m */,
 				700580B51BA65FB4008B0797 /* Supporting Files */,
+				70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */,
 			);
 			path = AlgorithmsSpecs;
 			sourceTree = "<group>";
@@ -173,6 +194,32 @@
 				700580B61BA65FB4008B0797 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70CAF2B01BA79A1600307561 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */,
+				70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */,
+			);
+			name = Graphs;
+			sourceTree = "<group>";
+		};
+		70CAF2B91BA7AAD200307561 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				70BC44511BA772950011AFF4 /* BreadthFirstSearch.h */,
+				70BC44521BA772950011AFF4 /* BreadthFirstSearch.m */,
+				70BC44541BA772C20011AFF4 /* GraphNode.h */,
+				70BC44551BA772C20011AFF4 /* GraphNode.m */,
+				70CAF2B11BA79F0500307561 /* DepthFirstSearch.h */,
+				70CAF2B21BA79F0500307561 /* DepthFirstSearch.m */,
+				70CAF2B61BA7A7AB00307561 /* GraphEdge.h */,
+				70CAF2B71BA7A7AB00307561 /* GraphEdge.m */,
+				70CAF2BA1BA7B3A900307561 /* GraphSort.h */,
+				70CAF2BB1BA7B3A900307561 /* GraphSort.m */,
+			);
+			name = Graph;
 			sourceTree = "<group>";
 		};
 		9E1D4E5B628CBD3F0BD3A9E4 /* Frameworks */ = {
@@ -384,13 +431,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70BC44531BA772950011AFF4 /* Graphs.m in Sources */,
+				70BC44531BA772950011AFF4 /* BreadthFirstSearch.m in Sources */,
+				70CAF2B81BA7A7AB00307561 /* GraphEdge.m in Sources */,
+				70CAF2BC1BA7B3A900307561 /* GraphSort.m in Sources */,
 				70D048FB1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m in Sources */,
+				70CAF2C11BA85BA800307561 /* BinarySearch.m in Sources */,
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
 				70BC44561BA772C20011AFF4 /* GraphNode.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
 				7005808C1BA65E85008B0797 /* main.m in Sources */,
+				70CAF2B31BA79F0500307561 /* DepthFirstSearch.m in Sources */,
 				706C07061BA6618B00D5CA36 /* DigitSum.m in Sources */,
+				70CAF2C41BA85E9C00307561 /* NSArray+Helpers.m in Sources */,
 				E77707D8B5C3681B00059BDC /* DynamicProg.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,8 +451,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */,
 				700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */,
-				70BC44501BA772310011AFF4 /* GraphSpec.m in Sources */,
+				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
+				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,5 +14,7 @@
 
 @property(nonatomic) BOOL visited;
 
+@property(nonatomic) int distanceFromRoot;
+
 - (id)initWithValue:(int)value;
 @end

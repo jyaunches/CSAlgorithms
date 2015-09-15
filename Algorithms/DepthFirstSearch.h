@@ -1,5 +1,5 @@
 //
-//  Graphs.h
+//  DepthFirstSearch.h
 //  Algorithms
 //
 //  Created by Julietta Yaunches on 9/14/15.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GraphNode.h"
 
-@class GraphNode;
+@interface DepthFirstSearch : NSObject
 
-@interface Graphs : NSObject
-- (int)breadthFirstSearch:(GraphNode *)root targetValue:(int)target;
+- (int)countVisitedNodes:(GraphNode *)root forTarget:(int)target;
 @end
