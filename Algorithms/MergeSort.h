@@ -1,5 +1,5 @@
 //
-//  NSArray+Helpers.h
+//  MergeSort.h
 //  Algorithms
 //
 //  Created by Julietta Yaunches on 9/15/15.
@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Helpers)
+@interface MergeSort : NSObject
 
-- (BOOL)isEmpty;
-
-- (int)firstNumber;
++ (NSMutableArray *)sort:(NSMutableArray *)array;
 @end

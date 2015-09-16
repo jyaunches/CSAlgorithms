@@ -1,7 +1,6 @@
+#import <ObjectiveSugar/ObjectiveSugar.h>
 #import "NSMutableArray+QueueHelper.h"
-#import "NSNumber+ObjectiveSugar.h"
-#import "NSMutableArray+ObjectiveSugar.h"
-
+#import "NSArray+Helpers.h"
 
 @implementation NSMutableArray (QueueHelper)
 - (void)pushObjects:(NSArray *)incomingObjects {
@@ -13,5 +12,16 @@
             [self insertObject:popped atIndex:0];
         }
     }
+}
+
+- (NSMutableArray *)subarrayFrom:(NSUInteger)startIndex to:(NSUInteger)endIndex {
+    if([self isEmpty]){
+        return self;
+    }
+
+    if(endIndex > [self count]){
+        endIndex = [self count];
+    }
+    return [[self subarrayWithRange:NSMakeRange(startIndex, endIndex - startIndex)] mutableCopy];
 }
 @end

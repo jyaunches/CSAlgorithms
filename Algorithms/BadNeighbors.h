@@ -1,5 +1,5 @@
 //
-//  NSArray+Helpers.h
+//  BadNeighbors.h
 //  Algorithms
 //
 //  Created by Julietta Yaunches on 9/15/15.
@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (Helpers)
+@interface BadNeighbors : NSObject
 
-- (BOOL)isEmpty;
-
-- (int)firstNumber;
+- (NSNumber *)findHighest:(NSArray *)allDonations;
 @end

@@ -25,6 +25,10 @@
 		70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */; };
 		70CAF2C11BA85BA800307561 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C01BA85BA800307561 /* BinarySearch.m */; };
 		70CAF2C41BA85E9C00307561 /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C31BA85E9C00307561 /* NSArray+Helpers.m */; };
+		70CAF2C71BA869A000307561 /* BadNeighbors.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C61BA869A000307561 /* BadNeighbors.m */; };
+		70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */; };
+		70CAF2CC1BA8CD0000307561 /* MergeSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */; };
+		70CAF2CF1BA8D69D00307561 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2CE1BA8D69D00307561 /* MergeSort.m */; };
 		70D048FB1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D048FA1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m */; };
 		E77707D8B5C3681B00059BDC /* DynamicProg.m in Sources */ = {isa = PBXBuildFile; fileRef = E777057D005346C427489807 /* DynamicProg.m */; };
 		FBB3952C1B3BA8141A0A2F20 /* Pods_AlgorithmsSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -78,6 +82,12 @@
 		70CAF2C01BA85BA800307561 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		70CAF2C21BA85E9C00307561 /* NSArray+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helpers.h"; sourceTree = "<group>"; };
 		70CAF2C31BA85E9C00307561 /* NSArray+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helpers.m"; sourceTree = "<group>"; };
+		70CAF2C51BA869A000307561 /* BadNeighbors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadNeighbors.h; sourceTree = "<group>"; };
+		70CAF2C61BA869A000307561 /* BadNeighbors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadNeighbors.m; sourceTree = "<group>"; };
+		70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadNeighborsSpec.m; sourceTree = "<group>"; };
+		70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortSpec.m; sourceTree = "<group>"; };
+		70CAF2CD1BA8D69D00307561 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		70CAF2CE1BA8D69D00307561 /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSort.m; sourceTree = "<group>"; };
 		70D048F91BA7840F00CDDD90 /* NSMutableArray+QueueHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueHelper.h"; sourceTree = "<group>"; };
 		70D048FA1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueHelper.m"; sourceTree = "<group>"; };
 		AAE63D07517EB83147E4928E /* Pods-AlgorithmsSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsSpecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsSpecs/Pods-AlgorithmsSpecs.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +174,10 @@
 				70CAF2C01BA85BA800307561 /* BinarySearch.m */,
 				70CAF2C21BA85E9C00307561 /* NSArray+Helpers.h */,
 				70CAF2C31BA85E9C00307561 /* NSArray+Helpers.m */,
+				70CAF2C51BA869A000307561 /* BadNeighbors.h */,
+				70CAF2C61BA869A000307561 /* BadNeighbors.m */,
+				70CAF2CD1BA8D69D00307561 /* MergeSort.h */,
+				70CAF2CE1BA8D69D00307561 /* MergeSort.m */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -180,10 +194,11 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
+				70CAF2C81BA869A500307561 /* DynamicProgramming */,
 				70CAF2B01BA79A1600307561 /* Graphs */,
-				700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */,
 				700580B51BA65FB4008B0797 /* Supporting Files */,
 				70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */,
+				70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */,
 			);
 			path = AlgorithmsSpecs;
 			sourceTree = "<group>";
@@ -220,6 +235,15 @@
 				70CAF2BB1BA7B3A900307561 /* GraphSort.m */,
 			);
 			name = Graph;
+			sourceTree = "<group>";
+		};
+		70CAF2C81BA869A500307561 /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */,
+				70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */,
+			);
+			name = DynamicProgramming;
 			sourceTree = "<group>";
 		};
 		9E1D4E5B628CBD3F0BD3A9E4 /* Frameworks */ = {
@@ -431,11 +455,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70CAF2CF1BA8D69D00307561 /* MergeSort.m in Sources */,
 				70BC44531BA772950011AFF4 /* BreadthFirstSearch.m in Sources */,
 				70CAF2B81BA7A7AB00307561 /* GraphEdge.m in Sources */,
 				70CAF2BC1BA7B3A900307561 /* GraphSort.m in Sources */,
 				70D048FB1BA7840F00CDDD90 /* NSMutableArray+QueueHelper.m in Sources */,
 				70CAF2C11BA85BA800307561 /* BinarySearch.m in Sources */,
+				70CAF2C71BA869A000307561 /* BadNeighbors.m in Sources */,
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
 				70BC44561BA772C20011AFF4 /* GraphNode.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
@@ -452,7 +478,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */,
+				70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */,
 				700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */,
+				70CAF2CC1BA8CD0000307561 /* MergeSortSpec.m in Sources */,
 				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
 				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
 			);
