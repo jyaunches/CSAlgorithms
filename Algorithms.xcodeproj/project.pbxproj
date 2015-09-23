@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27BD41DA1BB5CF700007F213 /* MinStackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D51BB5CF700007F213 /* MinStackNode.m */; };
+		27BD41DB1BB5CF700007F213 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D71BB5CF700007F213 /* Stack.m */; };
+		27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D91BB5CF700007F213 /* StackNode.m */; };
+		27BD41DF1BB5CF7B0007F213 /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */; };
+		27BD41E21BB5D0510007F213 /* StackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E11BB5D0510007F213 /* StackSpec.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -50,6 +55,15 @@
 
 /* Begin PBXFileReference section */
 		14C58A8CDABE05ECB40002EA /* Pods-AlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
+		27BD41D41BB5CF700007F213 /* MinStackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinStackNode.h; path = Stacks_Queues/MinStackNode.h; sourceTree = "<group>"; };
+		27BD41D51BB5CF700007F213 /* MinStackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinStackNode.m; path = Stacks_Queues/MinStackNode.m; sourceTree = "<group>"; };
+		27BD41D61BB5CF700007F213 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks_Queues/Stack.h; sourceTree = "<group>"; };
+		27BD41D71BB5CF700007F213 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Stacks_Queues/Stack.m; sourceTree = "<group>"; };
+		27BD41D81BB5CF700007F213 /* StackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackNode.h; path = Stacks_Queues/StackNode.h; sourceTree = "<group>"; };
+		27BD41D91BB5CF700007F213 /* StackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackNode.m; path = Stacks_Queues/StackNode.m; sourceTree = "<group>"; };
+		27BD41DD1BB5CF7B0007F213 /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Helpers.h"; path = "Helpers/NSNumber+Helpers.h"; sourceTree = "<group>"; };
+		27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Helpers.m"; path = "Helpers/NSNumber+Helpers.m"; sourceTree = "<group>"; };
+		27BD41E11BB5D0510007F213 /* StackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackSpec.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +154,27 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		27BD41D31BB5CF570007F213 /* Stacks_Queues */ = {
+			isa = PBXGroup;
+			children = (
+				27BD41D41BB5CF700007F213 /* MinStackNode.h */,
+				27BD41D51BB5CF700007F213 /* MinStackNode.m */,
+				27BD41D61BB5CF700007F213 /* Stack.h */,
+				27BD41D71BB5CF700007F213 /* Stack.m */,
+				27BD41D81BB5CF700007F213 /* StackNode.h */,
+				27BD41D91BB5CF700007F213 /* StackNode.m */,
+			);
+			name = Stacks_Queues;
+			sourceTree = "<group>";
+		};
+		27BD41E01BB5D03D0007F213 /* Stacks_Queues */ = {
+			isa = PBXGroup;
+			children = (
+				27BD41E11BB5D0510007F213 /* StackSpec.m */,
+			);
+			name = Stacks_Queues;
+			sourceTree = "<group>";
+		};
 		7005807D1BA65E85008B0797 = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +198,7 @@
 		700580881BA65E85008B0797 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				27BD41D31BB5CF570007F213 /* Stacks_Queues */,
 				704E3A921BA9B1B400974504 /* Lists */,
 				704E3A911BA9B1AE00974504 /* Helpers */,
 				704E3A901BA9B1A900974504 /* Graphs */,
@@ -191,6 +227,7 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
+				27BD41E01BB5D03D0007F213 /* Stacks_Queues */,
 				704E3ABA1BA9B28D00974504 /* Lists */,
 				70CAF2C81BA869A500307561 /* DynamicProgramming */,
 				70CAF2B01BA79A1600307561 /* Graphs */,
@@ -240,6 +277,8 @@
 		704E3A911BA9B1AE00974504 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				27BD41DD1BB5CF7B0007F213 /* NSNumber+Helpers.h */,
+				27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */,
 				704E3A961BA9B1CE00974504 /* NSMutableArray+QueueHelper.m */,
 				704E3A971BA9B1CE00974504 /* NSMutableArray+QueueHelper.h */,
 				704E3A981BA9B1CE00974504 /* NSArray+Helpers.h */,
@@ -501,6 +540,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				704E3AC21BA9B83F00974504 /* LinkedNode.m in Sources */,
+				27BD41DA1BB5CF700007F213 /* MinStackNode.m in Sources */,
 				704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
 				704E3AA91BA9B1D600974504 /* GraphSort.m in Sources */,
@@ -508,14 +548,17 @@
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
 				704E3AAD1BA9B1D600974504 /* GraphNode.m in Sources */,
 				704E3AAB1BA9B1D600974504 /* BreadthFirstSearch.m in Sources */,
+				27BD41DB1BB5CF700007F213 /* Stack.m in Sources */,
 				704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
 				704E3A951BA9B1C500974504 /* MergeSort.m in Sources */,
 				704E3AB91BA9B28400974504 /* BinarySearch.m in Sources */,
+				27BD41DF1BB5CF7B0007F213 /* NSNumber+Helpers.m in Sources */,
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
 				704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */,
 				7005808C1BA65E85008B0797 /* main.m in Sources */,
 				704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */,
+				27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */,
 				704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +574,7 @@
 				704E3ABC1BA9B7C000974504 /* LinkedListsSpec.m in Sources */,
 				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
 				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
+				27BD41E21BB5D0510007F213 /* StackSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

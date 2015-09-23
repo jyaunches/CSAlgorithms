@@ -35,4 +35,6 @@
 - (void)partition:(NSNumber *)target;
 
 - (BOOL)isPalindrome;
+
+- (BOOL)hasLoop;
 @end

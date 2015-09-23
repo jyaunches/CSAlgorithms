@@ -190,4 +190,35 @@
         return NO;
     }
 }
+
+- (BOOL)hasLoop {
+
+    //Detect collision point
+    //why collide?:
+    //sr = slow runner
+    //fr = fast runner
+    //when sr at node right before it enters loop:
+    //  sr @ n steps
+    //  fr @ 2n steps
+    //     @ 2n - n == n steps into loop
+    //when sr enters loop (with determinate length) each step takes it n+(total steps) along in the loop
+    //while fr still moves at n+2*(total steps)
+    //so with each step they are either moving 1 step closer (or further away.. depending on perspective) from each other
+
+
+    //Detect loop start
+    //We know total number of steps it took to reach collision, use this
+    //Collision happens at (loop-size % n) steps into loop
+    //  Why?
+    //   We know right before sr enters loop, fr is:
+    //      n steps into loop -> or (loop-size % n) steps into loop (loop can be bigger than n) - (let's denote this as N)
+    //      (loop size - N) steps from the beginning of the loop
+
+    //Steps to collision = n + (loop-size % n)
+
+
+    //Collision point is n nodes from the start of the loop!!
+
+    return NO;
+}
 @end
