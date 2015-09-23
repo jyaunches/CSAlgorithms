@@ -26,6 +26,9 @@
 		704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB01BA9B1E600974504 /* DynamicProg.m */; };
 		704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB21BA9B1E600974504 /* DigitSum.m */; };
 		704E3AB91BA9B28400974504 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB71BA9B28400974504 /* BinarySearch.m */; };
+		704E3ABC1BA9B7C000974504 /* LinkedListsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABB1BA9B7C000974504 /* LinkedListsSpec.m */; };
+		704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABE1BA9B7D000974504 /* LinkedList.m */; };
+		704E3AC21BA9B83F00974504 /* LinkedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AC11BA9B83F00974504 /* LinkedNode.m */; };
 		70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */; };
 		70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */; };
 		70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */; };
@@ -87,6 +90,11 @@
 		704E3AB31BA9B1E600974504 /* DigitSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DigitSum.h; path = "Dynamic Programming/DigitSum.h"; sourceTree = "<group>"; };
 		704E3AB71BA9B28400974504 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearch.m; path = Lists/BinarySearch.m; sourceTree = "<group>"; };
 		704E3AB81BA9B28400974504 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = Lists/BinarySearch.h; sourceTree = "<group>"; };
+		704E3ABB1BA9B7C000974504 /* LinkedListsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListsSpec.m; sourceTree = "<group>"; };
+		704E3ABD1BA9B7D000974504 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = Lists/LinkedList.h; sourceTree = "<group>"; };
+		704E3ABE1BA9B7D000974504 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = Lists/LinkedList.m; sourceTree = "<group>"; };
+		704E3AC01BA9B83F00974504 /* LinkedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedNode.h; sourceTree = "<group>"; };
+		704E3AC11BA9B83F00974504 /* LinkedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedNode.m; sourceTree = "<group>"; };
 		70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSearchSpec.m; sourceTree = "<group>"; };
 		70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSortingSpec.m; sourceTree = "<group>"; };
 		70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchSpec.m; sourceTree = "<group>"; };
@@ -247,6 +255,10 @@
 				704E3AB81BA9B28400974504 /* BinarySearch.h */,
 				704E3A931BA9B1C500974504 /* MergeSort.m */,
 				704E3A941BA9B1C500974504 /* MergeSort.h */,
+				704E3ABD1BA9B7D000974504 /* LinkedList.h */,
+				704E3ABE1BA9B7D000974504 /* LinkedList.m */,
+				704E3AC01BA9B83F00974504 /* LinkedNode.h */,
+				704E3AC11BA9B83F00974504 /* LinkedNode.m */,
 			);
 			name = Lists;
 			sourceTree = "<group>";
@@ -256,6 +268,7 @@
 			children = (
 				70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */,
 				70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */,
+				704E3ABB1BA9B7C000974504 /* LinkedListsSpec.m */,
 			);
 			name = Lists;
 			sourceTree = "<group>";
@@ -487,6 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				704E3AC21BA9B83F00974504 /* LinkedNode.m in Sources */,
 				704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
 				704E3AA91BA9B1D600974504 /* GraphSort.m in Sources */,
@@ -501,6 +515,7 @@
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
 				704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */,
 				7005808C1BA65E85008B0797 /* main.m in Sources */,
+				704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */,
 				704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +528,7 @@
 				70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */,
 				700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */,
 				70CAF2CC1BA8CD0000307561 /* MergeSortSpec.m in Sources */,
+				704E3ABC1BA9B7C000974504 /* LinkedListsSpec.m in Sources */,
 				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
 				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
 			);
