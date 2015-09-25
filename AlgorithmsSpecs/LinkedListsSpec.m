@@ -107,6 +107,25 @@ SPEC_BEGIN(LinkedListSpec)
             });
         });
 
+        describe(@"detecting a loop", ^{
+            it(@"should detect a loop", ^{
+                LinkedNode *node9 = [[LinkedNode alloc] initWithData:8 withNext:node4];
+                LinkedNode *node8 = [[LinkedNode alloc] initWithData:7 withNext:nil];
+                LinkedNode *node7 = [[LinkedNode alloc] initWithData:6 withNext:nil];
+                LinkedNode *node6 = [[LinkedNode alloc] initWithData:5 withNext:node7];
+                LinkedNode *node5 = [[LinkedNode alloc] initWithData:4 withNext:node6];
+                node4 = [[LinkedNode alloc] initWithData:3 withNext:node5];
+                LinkedNode *node3 = [[LinkedNode alloc] initWithData:2 withNext:node4];
+                LinkedNode *node2 = [[LinkedNode alloc] initWithData:1 withNext:node3];
+                LinkedNode *node1 = [[LinkedNode alloc] initWithData:0 withNext:node2];
+
+                linkedList = [[LinkedList alloc] initWithRootNode:node1];
+
+                BOOL hasLoop = [linkedList hasLoop];
+                [[@(hasLoop) should] beTrue];
+            });
+        });
+
 
     });
 
