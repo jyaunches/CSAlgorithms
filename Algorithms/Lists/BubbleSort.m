@@ -18,6 +18,10 @@
 //but has slightly higher overhead. In the case of nearly sorted data,
 //bubble sort takes O(n) time, but requires at least 2 passes through
 //the data (whereas insertion sort requires something more like 1 pass).
+// * Stable
+// * O(1) extra space
+// * O(n2) comparisons and swaps
+// * Adaptive: O(n) when nearly sorted
 
 + (NSArray *)sort:(NSMutableArray *)array {
     while([self runIteration:array]){

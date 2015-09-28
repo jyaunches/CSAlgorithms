@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		278B09E41BB9D256003EFA48 /* NSMutableArray+InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */; };
 		27BD41DA1BB5CF700007F213 /* MinStackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D51BB5CF700007F213 /* MinStackNode.m */; };
 		27BD41DB1BB5CF700007F213 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D71BB5CF700007F213 /* Stack.m */; };
 		27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D91BB5CF700007F213 /* StackNode.m */; };
@@ -61,6 +62,8 @@
 
 /* Begin PBXFileReference section */
 		14C58A8CDABE05ECB40002EA /* Pods-AlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
+		278B09E21BB9D256003EFA48 /* NSMutableArray+InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+InsertionSort.h"; sourceTree = "<group>"; };
+		278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+InsertionSort.m"; sourceTree = "<group>"; };
 		27BD41D41BB5CF700007F213 /* MinStackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinStackNode.h; path = Stacks_Queues/MinStackNode.h; sourceTree = "<group>"; };
 		27BD41D51BB5CF700007F213 /* MinStackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinStackNode.m; path = Stacks_Queues/MinStackNode.m; sourceTree = "<group>"; };
 		27BD41D61BB5CF700007F213 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks_Queues/Stack.h; sourceTree = "<group>"; };
@@ -218,6 +221,8 @@
 				704E3A941BA9B1C500974504 /* MergeSort.h */,
 				27DA28141BB99F5D00BA7A10 /* BubbleSort.h */,
 				27DA28151BB99F5D00BA7A10 /* BubbleSort.m */,
+				278B09E21BB9D256003EFA48 /* NSMutableArray+InsertionSort.h */,
+				278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */,
 			);
 			name = Sorting;
 			sourceTree = "<group>";
@@ -619,6 +624,7 @@
 				704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */,
 				27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */,
 				704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */,
+				278B09E41BB9D256003EFA48 /* NSMutableArray+InsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

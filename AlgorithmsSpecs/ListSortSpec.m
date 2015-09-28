@@ -9,12 +9,13 @@
 #import <Kiwi/Kiwi.h>
 #import "MergeSort.h"
 #import "BubbleSort.h"
+#import "NSMutableArray+InsertionSort.h"
 
 SPEC_BEGIN(ListSortSpec)
 
         __block NSMutableArray *expectedResult;
         __block NSMutableArray *unsorted;
-        beforeAll(^{
+        beforeEach(^{
             unsorted = [@[@(34), @(55), @(7), @(30), @(9), @(10), @(40), @(1), @(5)] mutableCopy];
             expectedResult = [@[@(1), @(5), @(7), @(9), @(10), @(30), @(34), @(40), @(55)] mutableCopy];
         });
@@ -34,7 +35,7 @@ SPEC_BEGIN(ListSortSpec)
 
         describe(@"InsertionSort", ^{
             it(@"should perform insertion sort", ^{
-                NSArray *sorted = [BubbleSort sort:unsorted];
+                NSArray *sorted = [unsorted insertionSort];
                 [[sorted should] equal:expectedResult];
             });
         });
