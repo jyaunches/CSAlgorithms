@@ -15,6 +15,8 @@
 		27BD41E41BB97EA80007F213 /* HanoiTowerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E31BB97EA80007F213 /* HanoiTowerSpec.m */; };
 		27BD41E91BB980020007F213 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E81BB980020007F213 /* HanoiTower.m */; };
 		27BD41EC1BB980120007F213 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41EB1BB980120007F213 /* Tower.m */; };
+		27DA280F1BB99B0100BA7A10 /* LinkedListBasicsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */; };
+		27DA28111BB99B7600BA7A10 /* LinkedListLoopSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -34,7 +36,7 @@
 		704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB01BA9B1E600974504 /* DynamicProg.m */; };
 		704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB21BA9B1E600974504 /* DigitSum.m */; };
 		704E3AB91BA9B28400974504 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB71BA9B28400974504 /* BinarySearch.m */; };
-		704E3ABC1BA9B7C000974504 /* LinkedListsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABB1BA9B7C000974504 /* LinkedListsSpec.m */; };
+		704E3ABC1BA9B7C000974504 /* PalindromeDetectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABB1BA9B7C000974504 /* PalindromeDetectionSpec.m */; };
 		704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABE1BA9B7D000974504 /* LinkedList.m */; };
 		704E3AC21BA9B83F00974504 /* LinkedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AC11BA9B83F00974504 /* LinkedNode.m */; };
 		70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */; };
@@ -72,6 +74,8 @@
 		27BD41E81BB980020007F213 /* HanoiTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HanoiTower.m; path = Stacks_Queues/HanoiTower.m; sourceTree = "<group>"; };
 		27BD41EA1BB980120007F213 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Stacks_Queues/Tower.h; sourceTree = "<group>"; };
 		27BD41EB1BB980120007F213 /* Tower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tower.m; path = Stacks_Queues/Tower.m; sourceTree = "<group>"; };
+		27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListBasicsSpec.m; sourceTree = "<group>"; };
+		27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListLoopSpec.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +116,7 @@
 		704E3AB31BA9B1E600974504 /* DigitSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DigitSum.h; path = "Dynamic Programming/DigitSum.h"; sourceTree = "<group>"; };
 		704E3AB71BA9B28400974504 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearch.m; path = Lists/BinarySearch.m; sourceTree = "<group>"; };
 		704E3AB81BA9B28400974504 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = Lists/BinarySearch.h; sourceTree = "<group>"; };
-		704E3ABB1BA9B7C000974504 /* LinkedListsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListsSpec.m; sourceTree = "<group>"; };
+		704E3ABB1BA9B7C000974504 /* PalindromeDetectionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalindromeDetectionSpec.m; sourceTree = "<group>"; };
 		704E3ABD1BA9B7D000974504 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = Lists/LinkedList.h; sourceTree = "<group>"; };
 		704E3ABE1BA9B7D000974504 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = Lists/LinkedList.m; sourceTree = "<group>"; };
 		704E3AC01BA9B83F00974504 /* LinkedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedNode.h; sourceTree = "<group>"; };
@@ -188,6 +192,22 @@
 			name = Stacks_Queues;
 			sourceTree = "<group>";
 		};
+		27DA280C1BB99A9800BA7A10 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */,
+			);
+			name = Sorting;
+			sourceTree = "<group>";
+		};
+		27DA280D1BB99ACC00BA7A10 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		7005807D1BA65E85008B0797 = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +260,8 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
+				27DA280D1BB99ACC00BA7A10 /* Search */,
+				27DA280C1BB99A9800BA7A10 /* Sorting */,
 				27BD41E01BB5D03D0007F213 /* Stacks_Queues */,
 				704E3ABA1BA9B28D00974504 /* Lists */,
 				70CAF2C81BA869A500307561 /* DynamicProgramming */,
@@ -318,9 +340,9 @@
 		704E3ABA1BA9B28D00974504 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
-				70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */,
-				70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */,
-				704E3ABB1BA9B7C000974504 /* LinkedListsSpec.m */,
+				704E3ABB1BA9B7C000974504 /* PalindromeDetectionSpec.m */,
+				27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */,
+				27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */,
 			);
 			name = Lists;
 			sourceTree = "<group>";
@@ -586,11 +608,13 @@
 				70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */,
 				700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */,
 				27BD41E41BB97EA80007F213 /* HanoiTowerSpec.m in Sources */,
+				27DA280F1BB99B0100BA7A10 /* LinkedListBasicsSpec.m in Sources */,
 				70CAF2CC1BA8CD0000307561 /* MergeSortSpec.m in Sources */,
-				704E3ABC1BA9B7C000974504 /* LinkedListsSpec.m in Sources */,
+				704E3ABC1BA9B7C000974504 /* PalindromeDetectionSpec.m in Sources */,
 				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
 				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
 				27BD41E21BB5D0510007F213 /* StackSpec.m in Sources */,
+				27DA28111BB99B7600BA7A10 /* LinkedListLoopSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
