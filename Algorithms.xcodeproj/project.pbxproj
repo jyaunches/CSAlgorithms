@@ -17,6 +17,7 @@
 		27BD41EC1BB980120007F213 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41EB1BB980120007F213 /* Tower.m */; };
 		27DA280F1BB99B0100BA7A10 /* LinkedListBasicsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */; };
 		27DA28111BB99B7600BA7A10 /* LinkedListLoopSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */; };
+		27DA28161BB99F5D00BA7A10 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA28151BB99F5D00BA7A10 /* BubbleSort.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -43,7 +44,7 @@
 		70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */; };
 		70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */; };
 		70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */; };
-		70CAF2CC1BA8CD0000307561 /* MergeSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */; };
+		70CAF2CC1BA8CD0000307561 /* ListSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2CB1BA8CD0000307561 /* ListSortSpec.m */; };
 		FBB3952C1B3BA8141A0A2F20 /* Pods_AlgorithmsSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FF38D1B6B14C02FA87BCE5DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C493E0600F804B6D26EE1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -76,6 +77,8 @@
 		27BD41EB1BB980120007F213 /* Tower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tower.m; path = Stacks_Queues/Tower.m; sourceTree = "<group>"; };
 		27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListBasicsSpec.m; sourceTree = "<group>"; };
 		27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListLoopSpec.m; sourceTree = "<group>"; };
+		27DA28141BB99F5D00BA7A10 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BubbleSort.h; path = Lists/BubbleSort.h; sourceTree = "<group>"; };
+		27DA28151BB99F5D00BA7A10 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BubbleSort.m; path = Lists/BubbleSort.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,7 +128,7 @@
 		70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSortingSpec.m; sourceTree = "<group>"; };
 		70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchSpec.m; sourceTree = "<group>"; };
 		70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadNeighborsSpec.m; sourceTree = "<group>"; };
-		70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeSortSpec.m; sourceTree = "<group>"; };
+		70CAF2CB1BA8CD0000307561 /* ListSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSortSpec.m; sourceTree = "<group>"; };
 		AAE63D07517EB83147E4928E /* Pods-AlgorithmsSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsSpecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsSpecs/Pods-AlgorithmsSpecs.release.xcconfig"; sourceTree = "<group>"; };
 		AC0F7D8A97973DB490AD5D35 /* Pods-AlgorithmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsSpecs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,7 +198,7 @@
 		27DA280C1BB99A9800BA7A10 /* Sorting */ = {
 			isa = PBXGroup;
 			children = (
-				70CAF2CB1BA8CD0000307561 /* MergeSortSpec.m */,
+				70CAF2CB1BA8CD0000307561 /* ListSortSpec.m */,
 			);
 			name = Sorting;
 			sourceTree = "<group>";
@@ -206,6 +209,26 @@
 				70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */,
 			);
 			name = Search;
+			sourceTree = "<group>";
+		};
+		27DA28171BB99F8E00BA7A10 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				704E3A931BA9B1C500974504 /* MergeSort.m */,
+				704E3A941BA9B1C500974504 /* MergeSort.h */,
+				27DA28141BB99F5D00BA7A10 /* BubbleSort.h */,
+				27DA28151BB99F5D00BA7A10 /* BubbleSort.m */,
+			);
+			name = Sorting;
+			sourceTree = "<group>";
+		};
+		27DA28181BB99FA400BA7A10 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				704E3AB71BA9B28400974504 /* BinarySearch.m */,
+				704E3AB81BA9B28400974504 /* BinarySearch.h */,
+			);
+			name = Searching;
 			sourceTree = "<group>";
 		};
 		7005807D1BA65E85008B0797 = {
@@ -325,10 +348,8 @@
 		704E3A921BA9B1B400974504 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
-				704E3AB71BA9B28400974504 /* BinarySearch.m */,
-				704E3AB81BA9B28400974504 /* BinarySearch.h */,
-				704E3A931BA9B1C500974504 /* MergeSort.m */,
-				704E3A941BA9B1C500974504 /* MergeSort.h */,
+				27DA28181BB99FA400BA7A10 /* Searching */,
+				27DA28171BB99F8E00BA7A10 /* Sorting */,
 				704E3ABD1BA9B7D000974504 /* LinkedList.h */,
 				704E3ABE1BA9B7D000974504 /* LinkedList.m */,
 				704E3AC01BA9B83F00974504 /* LinkedNode.h */,
@@ -585,6 +606,7 @@
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
 				704E3AAD1BA9B1D600974504 /* GraphNode.m in Sources */,
 				704E3AAB1BA9B1D600974504 /* BreadthFirstSearch.m in Sources */,
+				27DA28161BB99F5D00BA7A10 /* BubbleSort.m in Sources */,
 				27BD41DB1BB5CF700007F213 /* Stack.m in Sources */,
 				704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
@@ -609,7 +631,7 @@
 				700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */,
 				27BD41E41BB97EA80007F213 /* HanoiTowerSpec.m in Sources */,
 				27DA280F1BB99B0100BA7A10 /* LinkedListBasicsSpec.m in Sources */,
-				70CAF2CC1BA8CD0000307561 /* MergeSortSpec.m in Sources */,
+				70CAF2CC1BA8CD0000307561 /* ListSortSpec.m in Sources */,
 				704E3ABC1BA9B7C000974504 /* PalindromeDetectionSpec.m in Sources */,
 				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
 				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
