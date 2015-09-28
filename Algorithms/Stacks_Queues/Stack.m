@@ -35,4 +35,15 @@
     return toReturn.value;
 }
 
+- (int)count {
+    int result = 0;
+    StackNode *countNode = self.topNode;
+    while(countNode != nil){
+        countNode = countNode.next;
+        result++;
+    }
+
+    return result;
+}
+
 @end

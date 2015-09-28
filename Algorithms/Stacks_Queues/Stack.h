@@ -17,5 +17,5 @@
 
 - (void)push:(NSNumber *)value;
 - (NSNumber *)pop;
-
+- (int)count;
 @end

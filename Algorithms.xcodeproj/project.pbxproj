@@ -12,6 +12,9 @@
 		27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D91BB5CF700007F213 /* StackNode.m */; };
 		27BD41DF1BB5CF7B0007F213 /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */; };
 		27BD41E21BB5D0510007F213 /* StackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E11BB5D0510007F213 /* StackSpec.m */; };
+		27BD41E41BB97EA80007F213 /* HanoiTowerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E31BB97EA80007F213 /* HanoiTowerSpec.m */; };
+		27BD41E91BB980020007F213 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E81BB980020007F213 /* HanoiTower.m */; };
+		27BD41EC1BB980120007F213 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41EB1BB980120007F213 /* Tower.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -64,6 +67,11 @@
 		27BD41DD1BB5CF7B0007F213 /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Helpers.h"; path = "Helpers/NSNumber+Helpers.h"; sourceTree = "<group>"; };
 		27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Helpers.m"; path = "Helpers/NSNumber+Helpers.m"; sourceTree = "<group>"; };
 		27BD41E11BB5D0510007F213 /* StackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackSpec.m; sourceTree = "<group>"; };
+		27BD41E31BB97EA80007F213 /* HanoiTowerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanoiTowerSpec.m; sourceTree = "<group>"; };
+		27BD41E71BB980020007F213 /* HanoiTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HanoiTower.h; path = Stacks_Queues/HanoiTower.h; sourceTree = "<group>"; };
+		27BD41E81BB980020007F213 /* HanoiTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HanoiTower.m; path = Stacks_Queues/HanoiTower.m; sourceTree = "<group>"; };
+		27BD41EA1BB980120007F213 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Stacks_Queues/Tower.h; sourceTree = "<group>"; };
+		27BD41EB1BB980120007F213 /* Tower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tower.m; path = Stacks_Queues/Tower.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,6 +171,10 @@
 				27BD41D71BB5CF700007F213 /* Stack.m */,
 				27BD41D81BB5CF700007F213 /* StackNode.h */,
 				27BD41D91BB5CF700007F213 /* StackNode.m */,
+				27BD41E71BB980020007F213 /* HanoiTower.h */,
+				27BD41E81BB980020007F213 /* HanoiTower.m */,
+				27BD41EA1BB980120007F213 /* Tower.h */,
+				27BD41EB1BB980120007F213 /* Tower.m */,
 			);
 			name = Stacks_Queues;
 			sourceTree = "<group>";
@@ -171,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				27BD41E11BB5D0510007F213 /* StackSpec.m */,
+				27BD41E31BB97EA80007F213 /* HanoiTowerSpec.m */,
 			);
 			name = Stacks_Queues;
 			sourceTree = "<group>";
@@ -544,7 +557,9 @@
 				704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
 				704E3AA91BA9B1D600974504 /* GraphSort.m in Sources */,
+				27BD41E91BB980020007F213 /* HanoiTower.m in Sources */,
 				704E3A9B1BA9B1CE00974504 /* NSArray+Helpers.m in Sources */,
+				27BD41EC1BB980120007F213 /* Tower.m in Sources */,
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
 				704E3AAD1BA9B1D600974504 /* GraphNode.m in Sources */,
 				704E3AAB1BA9B1D600974504 /* BreadthFirstSearch.m in Sources */,
@@ -570,6 +585,7 @@
 				70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */,
 				70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */,
 				700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */,
+				27BD41E41BB97EA80007F213 /* HanoiTowerSpec.m in Sources */,
 				70CAF2CC1BA8CD0000307561 /* MergeSortSpec.m in Sources */,
 				704E3ABC1BA9B7C000974504 /* LinkedListsSpec.m in Sources */,
 				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
