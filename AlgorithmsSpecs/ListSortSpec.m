@@ -10,6 +10,7 @@
 #import "MergeSort.h"
 #import "BubbleSort.h"
 #import "NSMutableArray+InsertionSort.h"
+#import "NSMutableArray+SelectionSort.h"
 
 SPEC_BEGIN(ListSortSpec)
 
@@ -37,6 +38,13 @@ SPEC_BEGIN(ListSortSpec)
             it(@"should perform insertion sort", ^{
                 NSArray *sorted = [unsorted insertionSort];
                 [[sorted should] equal:expectedResult];
+            });
+        });
+
+        describe(@"SelectionSort", ^{
+            it(@"should perform insertion sort", ^{
+                [unsorted selectionSort];
+                [[unsorted should] equal:expectedResult];
             });
         });
 SPEC_END
