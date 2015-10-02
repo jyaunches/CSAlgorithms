@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */; };
+		27B4CE521BBECC2D00E23CCD /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE511BBECC2D00E23CCD /* BinaryTree.m */; };
+		27B4CE551BBED3AC00E23CCD /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */; };
+		27B4CE571BBED40E00E23CCD /* BinarySearchTreeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -66,6 +69,11 @@
 /* Begin PBXFileReference section */
 		14C58A8CDABE05ECB40002EA /* Pods-AlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
 		27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchSpec.m; path = Lists/BinarySearchSpec.m; sourceTree = "<group>"; };
+		27B4CE501BBECC2D00E23CCD /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTree.h; path = Graphs/BinaryTree.h; sourceTree = "<group>"; };
+		27B4CE511BBECC2D00E23CCD /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTree.m; path = Graphs/BinaryTree.m; sourceTree = "<group>"; };
+		27B4CE531BBED3AC00E23CCD /* BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeNode.h; path = Graphs/BinaryTreeNode.h; sourceTree = "<group>"; };
+		27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeNode.m; path = Graphs/BinaryTreeNode.m; sourceTree = "<group>"; };
+		27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchTreeSpec.m; path = Graphs/BinarySearchTreeSpec.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -275,6 +283,10 @@
 				704E3AA41BA9B1D600974504 /* DepthFirstSearch.h */,
 				704E3AA51BA9B1D600974504 /* GraphNode.h */,
 				704E3AA71BA9B1D600974504 /* GraphNode.m */,
+				27B4CE501BBECC2D00E23CCD /* BinaryTree.h */,
+				27B4CE511BBECC2D00E23CCD /* BinaryTree.m */,
+				27B4CE531BBED3AC00E23CCD /* BinaryTreeNode.h */,
+				27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -375,6 +387,7 @@
 				709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */,
 				709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */,
 				709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */,
+				27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -609,6 +622,8 @@
 				709DF1A61BBEC0BD007F6ED0 /* Tower.m in Sources */,
 				704E3A9B1BA9B1CE00974504 /* NSArray+Helpers.m in Sources */,
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
+				27B4CE551BBED3AC00E23CCD /* BinaryTreeNode.m in Sources */,
+				27B4CE521BBECC2D00E23CCD /* BinaryTree.m in Sources */,
 				709DF1BB1BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m in Sources */,
 				704E3AAD1BA9B1D600974504 /* GraphNode.m in Sources */,
 				709DF1AE1BBEC16A007F6ED0 /* BinarySearch.m in Sources */,
@@ -640,6 +655,7 @@
 				709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */,
 				27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */,
 				709DF1C01BBEC2F6007F6ED0 /* HanoiTowerSpec.m in Sources */,
+				27B4CE571BBED40E00E23CCD /* BinarySearchTreeSpec.m in Sources */,
 				709DF1C71BBEC300007F6ED0 /* LinkedListLoopSpec.m in Sources */,
 				709DF1C11BBEC2F6007F6ED0 /* StackSpec.m in Sources */,
 				709DF1C61BBEC300007F6ED0 /* LinkedListBasicsSpec.m in Sources */,
