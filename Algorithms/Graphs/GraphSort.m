@@ -12,7 +12,7 @@
 
 @implementation GraphSort
 
-- (NSArray *)sort:(NSArray *)edges {
+- (NSArray *)topologicalSort:(NSArray *)edges {
     GraphEdge *startingEdge = [edges find:^BOOL(GraphEdge *edge) {
         return edge.incoming == 0;
     }];

@@ -10,5 +10,5 @@
 
 @interface GraphSort : NSObject
 
-- (NSArray *)sort:(NSArray *)edges;
+- (NSArray *)topologicalSort:(NSArray *)edges;
 @end

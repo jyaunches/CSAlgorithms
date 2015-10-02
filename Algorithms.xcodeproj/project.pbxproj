@@ -7,29 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2781405A1BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 278140591BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m */; };
-		2781405D1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2781405C1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m */; };
-		278B09E41BB9D256003EFA48 /* NSMutableArray+InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */; };
-		27B4CE4D1BBB561E00E23CCD /* VariousSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE4C1BBB561E00E23CCD /* VariousSpecs.m */; };
-		27BD41DA1BB5CF700007F213 /* MinStackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D51BB5CF700007F213 /* MinStackNode.m */; };
-		27BD41DB1BB5CF700007F213 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D71BB5CF700007F213 /* Stack.m */; };
-		27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D91BB5CF700007F213 /* StackNode.m */; };
-		27BD41DF1BB5CF7B0007F213 /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */; };
-		27BD41E21BB5D0510007F213 /* StackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E11BB5D0510007F213 /* StackSpec.m */; };
-		27BD41E41BB97EA80007F213 /* HanoiTowerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E31BB97EA80007F213 /* HanoiTowerSpec.m */; };
-		27BD41E91BB980020007F213 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41E81BB980020007F213 /* HanoiTower.m */; };
-		27BD41EC1BB980120007F213 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41EB1BB980120007F213 /* Tower.m */; };
-		27DA280F1BB99B0100BA7A10 /* LinkedListBasicsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */; };
-		27DA28111BB99B7600BA7A10 /* LinkedListLoopSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */; };
-		27DA28161BB99F5D00BA7A10 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DA28151BB99F5D00BA7A10 /* BubbleSort.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
 		700580951BA65E85008B0797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 700580931BA65E85008B0797 /* Main.storyboard */; };
 		700580971BA65E85008B0797 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 700580961BA65E85008B0797 /* Images.xcassets */; };
 		7005809A1BA65E85008B0797 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700580981BA65E85008B0797 /* LaunchScreen.xib */; };
-		700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */; };
-		704E3A951BA9B1C500974504 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A931BA9B1C500974504 /* MergeSort.m */; };
 		704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A961BA9B1CE00974504 /* NSMutableArray+QueueHelper.m */; };
 		704E3A9B1BA9B1CE00974504 /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A991BA9B1CE00974504 /* NSArray+Helpers.m */; };
 		704E3AA91BA9B1D600974504 /* GraphSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A9E1BA9B1D600974504 /* GraphSort.m */; };
@@ -40,15 +23,32 @@
 		704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AAE1BA9B1E600974504 /* BadNeighbors.m */; };
 		704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB01BA9B1E600974504 /* DynamicProg.m */; };
 		704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB21BA9B1E600974504 /* DigitSum.m */; };
-		704E3AB91BA9B28400974504 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB71BA9B28400974504 /* BinarySearch.m */; };
-		704E3ABC1BA9B7C000974504 /* PalindromeDetectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABB1BA9B7C000974504 /* PalindromeDetectionSpec.m */; };
 		704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABE1BA9B7D000974504 /* LinkedList.m */; };
-		704E3AC21BA9B83F00974504 /* LinkedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AC11BA9B83F00974504 /* LinkedNode.m */; };
-		70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */; };
-		70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */; };
-		70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */; };
-		70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */; };
-		70CAF2CC1BA8CD0000307561 /* ListSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CAF2CB1BA8CD0000307561 /* ListSortSpec.m */; };
+		706A1B1D1BB5BC95002C71DE /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A1B181BB5BC95002C71DE /* Stack.m */; };
+		706A1B1E1BB5BC95002C71DE /* MinStackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A1B1A1BB5BC95002C71DE /* MinStackNode.m */; };
+		706A1B1F1BB5BC95002C71DE /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A1B1C1BB5BC95002C71DE /* StackNode.m */; };
+		706A1B251BB5BCCA002C71DE /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A1B241BB5BCCA002C71DE /* NSNumber+Helpers.m */; };
+		709DF1A51BBEC0BD007F6ED0 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1A21BBEC0BD007F6ED0 /* HanoiTower.m */; };
+		709DF1A61BBEC0BD007F6ED0 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1A41BBEC0BD007F6ED0 /* Tower.m */; };
+		709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1A81BBEC14D007F6ED0 /* LinkedNode.m */; };
+		709DF1AE1BBEC16A007F6ED0 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1AC1BBEC16A007F6ED0 /* BinarySearch.m */; };
+		709DF1B91BBEC175007F6ED0 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B01BBEC175007F6ED0 /* BubbleSort.m */; };
+		709DF1BA1BBEC175007F6ED0 /* NSMutableArray+HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B21BBEC175007F6ED0 /* NSMutableArray+HeapSort.m */; };
+		709DF1BB1BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B41BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m */; };
+		709DF1BC1BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B61BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m */; };
+		709DF1BD1BBEC175007F6ED0 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B71BBEC175007F6ED0 /* MergeSort.m */; };
+		709DF1C01BBEC2F6007F6ED0 /* HanoiTowerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1BE1BBEC2F6007F6ED0 /* HanoiTowerSpec.m */; };
+		709DF1C11BBEC2F6007F6ED0 /* StackSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1BF1BBEC2F6007F6ED0 /* StackSpec.m */; };
+		709DF1C61BBEC300007F6ED0 /* LinkedListBasicsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1C21BBEC300007F6ED0 /* LinkedListBasicsSpec.m */; };
+		709DF1C71BBEC300007F6ED0 /* LinkedListLoopSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1C31BBEC300007F6ED0 /* LinkedListLoopSpec.m */; };
+		709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1C41BBEC300007F6ED0 /* ListSortSpec.m */; };
+		709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */; };
+		709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */; };
+		709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */; };
+		709DF1D01BBEC327007F6ED0 /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CC1BBEC327007F6ED0 /* BinarySearchSpec.m */; };
+		709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */; };
+		70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */; };
+		70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */; };
 		FBB3952C1B3BA8141A0A2F20 /* Pods_AlgorithmsSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FF38D1B6B14C02FA87BCE5DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C493E0600F804B6D26EE1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -65,31 +65,6 @@
 
 /* Begin PBXFileReference section */
 		14C58A8CDABE05ECB40002EA /* Pods-AlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
-		278140581BB9E28E00BD64CC /* NSMutableArray+SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SelectionSort.h"; sourceTree = "<group>"; };
-		278140591BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SelectionSort.m"; sourceTree = "<group>"; };
-		2781405B1BBAC63F00BD64CC /* NSMutableArray+HeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HeapSort.h"; sourceTree = "<group>"; };
-		2781405C1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HeapSort.m"; sourceTree = "<group>"; };
-		278B09E21BB9D256003EFA48 /* NSMutableArray+InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+InsertionSort.h"; sourceTree = "<group>"; };
-		278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+InsertionSort.m"; sourceTree = "<group>"; };
-		27B4CE4C1BBB561E00E23CCD /* VariousSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariousSpecs.m; sourceTree = "<group>"; };
-		27BD41D41BB5CF700007F213 /* MinStackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinStackNode.h; path = Stacks_Queues/MinStackNode.h; sourceTree = "<group>"; };
-		27BD41D51BB5CF700007F213 /* MinStackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinStackNode.m; path = Stacks_Queues/MinStackNode.m; sourceTree = "<group>"; };
-		27BD41D61BB5CF700007F213 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks_Queues/Stack.h; sourceTree = "<group>"; };
-		27BD41D71BB5CF700007F213 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Stacks_Queues/Stack.m; sourceTree = "<group>"; };
-		27BD41D81BB5CF700007F213 /* StackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackNode.h; path = Stacks_Queues/StackNode.h; sourceTree = "<group>"; };
-		27BD41D91BB5CF700007F213 /* StackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackNode.m; path = Stacks_Queues/StackNode.m; sourceTree = "<group>"; };
-		27BD41DD1BB5CF7B0007F213 /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Helpers.h"; path = "Helpers/NSNumber+Helpers.h"; sourceTree = "<group>"; };
-		27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Helpers.m"; path = "Helpers/NSNumber+Helpers.m"; sourceTree = "<group>"; };
-		27BD41E11BB5D0510007F213 /* StackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackSpec.m; sourceTree = "<group>"; };
-		27BD41E31BB97EA80007F213 /* HanoiTowerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanoiTowerSpec.m; sourceTree = "<group>"; };
-		27BD41E71BB980020007F213 /* HanoiTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HanoiTower.h; path = Stacks_Queues/HanoiTower.h; sourceTree = "<group>"; };
-		27BD41E81BB980020007F213 /* HanoiTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HanoiTower.m; path = Stacks_Queues/HanoiTower.m; sourceTree = "<group>"; };
-		27BD41EA1BB980120007F213 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Stacks_Queues/Tower.h; sourceTree = "<group>"; };
-		27BD41EB1BB980120007F213 /* Tower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tower.m; path = Stacks_Queues/Tower.m; sourceTree = "<group>"; };
-		27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListBasicsSpec.m; sourceTree = "<group>"; };
-		27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListLoopSpec.m; sourceTree = "<group>"; };
-		27DA28141BB99F5D00BA7A10 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BubbleSort.h; path = Lists/BubbleSort.h; sourceTree = "<group>"; };
-		27DA28151BB99F5D00BA7A10 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BubbleSort.m; path = Lists/BubbleSort.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,9 +80,6 @@
 		700580991BA65E85008B0797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		700580B31BA65FB4008B0797 /* AlgorithmsSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		700580B61BA65FB4008B0797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicProgSpecs.m; sourceTree = "<group>"; };
-		704E3A931BA9B1C500974504 /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MergeSort.m; path = Lists/MergeSort.m; sourceTree = "<group>"; };
-		704E3A941BA9B1C500974504 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MergeSort.h; path = Lists/MergeSort.h; sourceTree = "<group>"; };
 		704E3A961BA9B1CE00974504 /* NSMutableArray+QueueHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+QueueHelper.m"; path = "Helpers/NSMutableArray+QueueHelper.m"; sourceTree = "<group>"; };
 		704E3A971BA9B1CE00974504 /* NSMutableArray+QueueHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueHelper.h"; path = "Helpers/NSMutableArray+QueueHelper.h"; sourceTree = "<group>"; };
 		704E3A981BA9B1CE00974504 /* NSArray+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Helpers.h"; path = "Helpers/NSArray+Helpers.h"; sourceTree = "<group>"; };
@@ -128,18 +100,46 @@
 		704E3AB11BA9B1E600974504 /* DynamicProg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicProg.h; path = "Dynamic Programming/DynamicProg.h"; sourceTree = "<group>"; };
 		704E3AB21BA9B1E600974504 /* DigitSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DigitSum.m; path = "Dynamic Programming/DigitSum.m"; sourceTree = "<group>"; };
 		704E3AB31BA9B1E600974504 /* DigitSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DigitSum.h; path = "Dynamic Programming/DigitSum.h"; sourceTree = "<group>"; };
-		704E3AB71BA9B28400974504 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearch.m; path = Lists/BinarySearch.m; sourceTree = "<group>"; };
-		704E3AB81BA9B28400974504 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = Lists/BinarySearch.h; sourceTree = "<group>"; };
-		704E3ABB1BA9B7C000974504 /* PalindromeDetectionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PalindromeDetectionSpec.m; sourceTree = "<group>"; };
 		704E3ABD1BA9B7D000974504 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedList.h; path = Lists/LinkedList.h; sourceTree = "<group>"; };
 		704E3ABE1BA9B7D000974504 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedList.m; path = Lists/LinkedList.m; sourceTree = "<group>"; };
-		704E3AC01BA9B83F00974504 /* LinkedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedNode.h; sourceTree = "<group>"; };
-		704E3AC11BA9B83F00974504 /* LinkedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedNode.m; sourceTree = "<group>"; };
-		70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSearchSpec.m; sourceTree = "<group>"; };
-		70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphSortingSpec.m; sourceTree = "<group>"; };
-		70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchSpec.m; sourceTree = "<group>"; };
-		70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadNeighborsSpec.m; sourceTree = "<group>"; };
-		70CAF2CB1BA8CD0000307561 /* ListSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListSortSpec.m; sourceTree = "<group>"; };
+		706A1B171BB5BC95002C71DE /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks_Queues/Stack.h; sourceTree = "<group>"; };
+		706A1B181BB5BC95002C71DE /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stack.m; path = Stacks_Queues/Stack.m; sourceTree = "<group>"; };
+		706A1B191BB5BC95002C71DE /* MinStackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinStackNode.h; path = Stacks_Queues/MinStackNode.h; sourceTree = "<group>"; };
+		706A1B1A1BB5BC95002C71DE /* MinStackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinStackNode.m; path = Stacks_Queues/MinStackNode.m; sourceTree = "<group>"; };
+		706A1B1B1BB5BC95002C71DE /* StackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StackNode.h; path = Stacks_Queues/StackNode.h; sourceTree = "<group>"; };
+		706A1B1C1BB5BC95002C71DE /* StackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackNode.m; path = Stacks_Queues/StackNode.m; sourceTree = "<group>"; };
+		706A1B231BB5BCCA002C71DE /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Helpers.h"; path = "Helpers/NSNumber+Helpers.h"; sourceTree = "<group>"; };
+		706A1B241BB5BCCA002C71DE /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Helpers.m"; path = "Helpers/NSNumber+Helpers.m"; sourceTree = "<group>"; };
+		709DF1A11BBEC0BD007F6ED0 /* HanoiTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HanoiTower.h; path = Stacks_Queues/HanoiTower.h; sourceTree = "<group>"; };
+		709DF1A21BBEC0BD007F6ED0 /* HanoiTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HanoiTower.m; path = Stacks_Queues/HanoiTower.m; sourceTree = "<group>"; };
+		709DF1A31BBEC0BD007F6ED0 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Stacks_Queues/Tower.h; sourceTree = "<group>"; };
+		709DF1A41BBEC0BD007F6ED0 /* Tower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tower.m; path = Stacks_Queues/Tower.m; sourceTree = "<group>"; };
+		709DF1A71BBEC14D007F6ED0 /* LinkedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinkedNode.h; path = Lists/LinkedNode.h; sourceTree = "<group>"; };
+		709DF1A81BBEC14D007F6ED0 /* LinkedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedNode.m; path = Lists/LinkedNode.m; sourceTree = "<group>"; };
+		709DF1AC1BBEC16A007F6ED0 /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearch.m; path = Lists/Searching/BinarySearch.m; sourceTree = "<group>"; };
+		709DF1AD1BBEC16A007F6ED0 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = Lists/Searching/BinarySearch.h; sourceTree = "<group>"; };
+		709DF1AF1BBEC175007F6ED0 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BubbleSort.h; path = Lists/Sorting/BubbleSort.h; sourceTree = "<group>"; };
+		709DF1B01BBEC175007F6ED0 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BubbleSort.m; path = Lists/Sorting/BubbleSort.m; sourceTree = "<group>"; };
+		709DF1B11BBEC175007F6ED0 /* NSMutableArray+HeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+HeapSort.h"; path = "Lists/Sorting/NSMutableArray+HeapSort.h"; sourceTree = "<group>"; };
+		709DF1B21BBEC175007F6ED0 /* NSMutableArray+HeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+HeapSort.m"; path = "Lists/Sorting/NSMutableArray+HeapSort.m"; sourceTree = "<group>"; };
+		709DF1B31BBEC175007F6ED0 /* NSMutableArray+InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+InsertionSort.h"; path = "Lists/Sorting/NSMutableArray+InsertionSort.h"; sourceTree = "<group>"; };
+		709DF1B41BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+InsertionSort.m"; path = "Lists/Sorting/NSMutableArray+InsertionSort.m"; sourceTree = "<group>"; };
+		709DF1B51BBEC175007F6ED0 /* NSMutableArray+SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SelectionSort.h"; path = "Lists/Sorting/NSMutableArray+SelectionSort.h"; sourceTree = "<group>"; };
+		709DF1B61BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SelectionSort.m"; path = "Lists/Sorting/NSMutableArray+SelectionSort.m"; sourceTree = "<group>"; };
+		709DF1B71BBEC175007F6ED0 /* MergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MergeSort.m; path = Lists/Sorting/MergeSort.m; sourceTree = "<group>"; };
+		709DF1B81BBEC175007F6ED0 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MergeSort.h; path = Lists/Sorting/MergeSort.h; sourceTree = "<group>"; };
+		709DF1BE1BBEC2F6007F6ED0 /* HanoiTowerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HanoiTowerSpec.m; path = Stacks_Queues/HanoiTowerSpec.m; sourceTree = "<group>"; };
+		709DF1BF1BBEC2F6007F6ED0 /* StackSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackSpec.m; path = Stacks_Queues/StackSpec.m; sourceTree = "<group>"; };
+		709DF1C21BBEC300007F6ED0 /* LinkedListBasicsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedListBasicsSpec.m; path = Lists/LinkedListBasicsSpec.m; sourceTree = "<group>"; };
+		709DF1C31BBEC300007F6ED0 /* LinkedListLoopSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LinkedListLoopSpec.m; path = Lists/LinkedListLoopSpec.m; sourceTree = "<group>"; };
+		709DF1C41BBEC300007F6ED0 /* ListSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListSortSpec.m; path = Lists/ListSortSpec.m; sourceTree = "<group>"; };
+		709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalindromeDetectionSpec.m; path = Lists/PalindromeDetectionSpec.m; sourceTree = "<group>"; };
+		709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetectConnectedComponentsSpec.m; path = Graphs/DetectConnectedComponentsSpec.m; sourceTree = "<group>"; };
+		709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopologicalSortSpec.m; path = Graphs/TopologicalSortSpec.m; sourceTree = "<group>"; };
+		709DF1CC1BBEC327007F6ED0 /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchSpec.m; path = Graphs/BinarySearchSpec.m; sourceTree = "<group>"; };
+		709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSearchSpec.m; path = Graphs/GraphSearchSpec.m; sourceTree = "<group>"; };
+		70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicProgSpecs.m; path = DynamicProgramming/DynamicProgSpecs.m; sourceTree = "<group>"; };
+		70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadNeighborsSpec.m; path = DynamicProgramming/BadNeighborsSpec.m; sourceTree = "<group>"; };
 		AAE63D07517EB83147E4928E /* Pods-AlgorithmsSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsSpecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsSpecs/Pods-AlgorithmsSpecs.release.xcconfig"; sourceTree = "<group>"; };
 		AC0F7D8A97973DB490AD5D35 /* Pods-AlgorithmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsSpecs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,82 +180,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		27B4CE4B1BBB55EE00E23CCD /* ObjectiveC */ = {
-			isa = PBXGroup;
-			children = (
-				27B4CE4C1BBB561E00E23CCD /* VariousSpecs.m */,
-			);
-			name = ObjectiveC;
-			sourceTree = "<group>";
-		};
-		27BD41D31BB5CF570007F213 /* Stacks_Queues */ = {
-			isa = PBXGroup;
-			children = (
-				27BD41D41BB5CF700007F213 /* MinStackNode.h */,
-				27BD41D51BB5CF700007F213 /* MinStackNode.m */,
-				27BD41D61BB5CF700007F213 /* Stack.h */,
-				27BD41D71BB5CF700007F213 /* Stack.m */,
-				27BD41D81BB5CF700007F213 /* StackNode.h */,
-				27BD41D91BB5CF700007F213 /* StackNode.m */,
-				27BD41E71BB980020007F213 /* HanoiTower.h */,
-				27BD41E81BB980020007F213 /* HanoiTower.m */,
-				27BD41EA1BB980120007F213 /* Tower.h */,
-				27BD41EB1BB980120007F213 /* Tower.m */,
-			);
-			name = Stacks_Queues;
-			sourceTree = "<group>";
-		};
-		27BD41E01BB5D03D0007F213 /* Stacks_Queues */ = {
-			isa = PBXGroup;
-			children = (
-				27BD41E11BB5D0510007F213 /* StackSpec.m */,
-				27BD41E31BB97EA80007F213 /* HanoiTowerSpec.m */,
-			);
-			name = Stacks_Queues;
-			sourceTree = "<group>";
-		};
-		27DA280C1BB99A9800BA7A10 /* Sorting */ = {
-			isa = PBXGroup;
-			children = (
-				70CAF2CB1BA8CD0000307561 /* ListSortSpec.m */,
-			);
-			name = Sorting;
-			sourceTree = "<group>";
-		};
-		27DA280D1BB99ACC00BA7A10 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-				70CAF2BD1BA85A6F00307561 /* BinarySearchSpec.m */,
-			);
-			name = Search;
-			sourceTree = "<group>";
-		};
-		27DA28171BB99F8E00BA7A10 /* Sorting */ = {
-			isa = PBXGroup;
-			children = (
-				704E3A931BA9B1C500974504 /* MergeSort.m */,
-				704E3A941BA9B1C500974504 /* MergeSort.h */,
-				27DA28141BB99F5D00BA7A10 /* BubbleSort.h */,
-				27DA28151BB99F5D00BA7A10 /* BubbleSort.m */,
-				278B09E21BB9D256003EFA48 /* NSMutableArray+InsertionSort.h */,
-				278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */,
-				278140581BB9E28E00BD64CC /* NSMutableArray+SelectionSort.h */,
-				278140591BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m */,
-				2781405B1BBAC63F00BD64CC /* NSMutableArray+HeapSort.h */,
-				2781405C1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m */,
-			);
-			name = Sorting;
-			sourceTree = "<group>";
-		};
-		27DA28181BB99FA400BA7A10 /* Searching */ = {
-			isa = PBXGroup;
-			children = (
-				704E3AB71BA9B28400974504 /* BinarySearch.m */,
-				704E3AB81BA9B28400974504 /* BinarySearch.h */,
-			);
-			name = Searching;
-			sourceTree = "<group>";
-		};
 		7005807D1BA65E85008B0797 = {
 			isa = PBXGroup;
 			children = (
@@ -279,7 +203,7 @@
 		700580881BA65E85008B0797 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				27BD41D31BB5CF570007F213 /* Stacks_Queues */,
+				706A1B161BB5BC63002C71DE /* Stacks_Queues */,
 				704E3A921BA9B1B400974504 /* Lists */,
 				704E3A911BA9B1AE00974504 /* Helpers */,
 				704E3A901BA9B1A900974504 /* Graphs */,
@@ -308,10 +232,7 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
-				27B4CE4B1BBB55EE00E23CCD /* ObjectiveC */,
-				27DA280D1BB99ACC00BA7A10 /* Search */,
-				27DA280C1BB99A9800BA7A10 /* Sorting */,
-				27BD41E01BB5D03D0007F213 /* Stacks_Queues */,
+				706A1B201BB5BC9D002C71DE /* Stacks_Queues */,
 				704E3ABA1BA9B28D00974504 /* Lists */,
 				70CAF2C81BA869A500307561 /* DynamicProgramming */,
 				70CAF2B01BA79A1600307561 /* Graphs */,
@@ -348,11 +269,11 @@
 				704E3A9F1BA9B1D600974504 /* GraphEdge.m */,
 				704E3AA01BA9B1D600974504 /* GraphEdge.h */,
 				704E3AA11BA9B1D600974504 /* GraphSort.h */,
+				704E3AA61BA9B1D600974504 /* BreadthFirstSearch.h */,
 				704E3AA21BA9B1D600974504 /* BreadthFirstSearch.m */,
 				704E3AA31BA9B1D600974504 /* DepthFirstSearch.m */,
 				704E3AA41BA9B1D600974504 /* DepthFirstSearch.h */,
 				704E3AA51BA9B1D600974504 /* GraphNode.h */,
-				704E3AA61BA9B1D600974504 /* BreadthFirstSearch.h */,
 				704E3AA71BA9B1D600974504 /* GraphNode.m */,
 			);
 			name = Graphs;
@@ -361,8 +282,8 @@
 		704E3A911BA9B1AE00974504 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				27BD41DD1BB5CF7B0007F213 /* NSNumber+Helpers.h */,
-				27BD41DE1BB5CF7B0007F213 /* NSNumber+Helpers.m */,
+				706A1B231BB5BCCA002C71DE /* NSNumber+Helpers.h */,
+				706A1B241BB5BCCA002C71DE /* NSNumber+Helpers.m */,
 				704E3A961BA9B1CE00974504 /* NSMutableArray+QueueHelper.m */,
 				704E3A971BA9B1CE00974504 /* NSMutableArray+QueueHelper.h */,
 				704E3A981BA9B1CE00974504 /* NSArray+Helpers.h */,
@@ -374,12 +295,12 @@
 		704E3A921BA9B1B400974504 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
-				27DA28181BB99FA400BA7A10 /* Searching */,
-				27DA28171BB99F8E00BA7A10 /* Sorting */,
+				709DF1AB1BBEC159007F6ED0 /* Searching */,
+				709DF1AA1BBEC151007F6ED0 /* Sorting */,
+				709DF1A71BBEC14D007F6ED0 /* LinkedNode.h */,
+				709DF1A81BBEC14D007F6ED0 /* LinkedNode.m */,
 				704E3ABD1BA9B7D000974504 /* LinkedList.h */,
 				704E3ABE1BA9B7D000974504 /* LinkedList.m */,
-				704E3AC01BA9B83F00974504 /* LinkedNode.h */,
-				704E3AC11BA9B83F00974504 /* LinkedNode.m */,
 			);
 			name = Lists;
 			sourceTree = "<group>";
@@ -387,18 +308,73 @@
 		704E3ABA1BA9B28D00974504 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
-				704E3ABB1BA9B7C000974504 /* PalindromeDetectionSpec.m */,
-				27DA280E1BB99B0100BA7A10 /* LinkedListBasicsSpec.m */,
-				27DA28101BB99B7600BA7A10 /* LinkedListLoopSpec.m */,
+				709DF1C21BBEC300007F6ED0 /* LinkedListBasicsSpec.m */,
+				709DF1C31BBEC300007F6ED0 /* LinkedListLoopSpec.m */,
+				709DF1C41BBEC300007F6ED0 /* ListSortSpec.m */,
+				709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */,
 			);
 			name = Lists;
+			sourceTree = "<group>";
+		};
+		706A1B161BB5BC63002C71DE /* Stacks_Queues */ = {
+			isa = PBXGroup;
+			children = (
+				709DF1A11BBEC0BD007F6ED0 /* HanoiTower.h */,
+				709DF1A21BBEC0BD007F6ED0 /* HanoiTower.m */,
+				709DF1A31BBEC0BD007F6ED0 /* Tower.h */,
+				709DF1A41BBEC0BD007F6ED0 /* Tower.m */,
+				706A1B171BB5BC95002C71DE /* Stack.h */,
+				706A1B181BB5BC95002C71DE /* Stack.m */,
+				706A1B191BB5BC95002C71DE /* MinStackNode.h */,
+				706A1B1A1BB5BC95002C71DE /* MinStackNode.m */,
+				706A1B1B1BB5BC95002C71DE /* StackNode.h */,
+				706A1B1C1BB5BC95002C71DE /* StackNode.m */,
+			);
+			name = Stacks_Queues;
+			sourceTree = "<group>";
+		};
+		706A1B201BB5BC9D002C71DE /* Stacks_Queues */ = {
+			isa = PBXGroup;
+			children = (
+				709DF1BE1BBEC2F6007F6ED0 /* HanoiTowerSpec.m */,
+				709DF1BF1BBEC2F6007F6ED0 /* StackSpec.m */,
+			);
+			name = Stacks_Queues;
+			sourceTree = "<group>";
+		};
+		709DF1AA1BBEC151007F6ED0 /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				709DF1AF1BBEC175007F6ED0 /* BubbleSort.h */,
+				709DF1B01BBEC175007F6ED0 /* BubbleSort.m */,
+				709DF1B11BBEC175007F6ED0 /* NSMutableArray+HeapSort.h */,
+				709DF1B21BBEC175007F6ED0 /* NSMutableArray+HeapSort.m */,
+				709DF1B31BBEC175007F6ED0 /* NSMutableArray+InsertionSort.h */,
+				709DF1B41BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m */,
+				709DF1B51BBEC175007F6ED0 /* NSMutableArray+SelectionSort.h */,
+				709DF1B61BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m */,
+				709DF1B71BBEC175007F6ED0 /* MergeSort.m */,
+				709DF1B81BBEC175007F6ED0 /* MergeSort.h */,
+			);
+			name = Sorting;
+			sourceTree = "<group>";
+		};
+		709DF1AB1BBEC159007F6ED0 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				709DF1AC1BBEC16A007F6ED0 /* BinarySearch.m */,
+				709DF1AD1BBEC16A007F6ED0 /* BinarySearch.h */,
+			);
+			name = Searching;
 			sourceTree = "<group>";
 		};
 		70CAF2B01BA79A1600307561 /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
-				70BC444F1BA772310011AFF4 /* GraphSearchSpec.m */,
-				70CAF2B41BA7A4BA00307561 /* GraphSortingSpec.m */,
+				709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */,
+				709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */,
+				709DF1CC1BBEC327007F6ED0 /* BinarySearchSpec.m */,
+				709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -406,8 +382,8 @@
 		70CAF2C81BA869A500307561 /* DynamicProgramming */ = {
 			isa = PBXGroup;
 			children = (
-				700580B71BA65FB4008B0797 /* DynamicProgSpecs.m */,
-				70CAF2C91BA869C400307561 /* BadNeighborsSpec.m */,
+				70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */,
+				70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */,
 			);
 			name = DynamicProgramming;
 			sourceTree = "<group>";
@@ -472,7 +448,7 @@
 		7005807E1BA65E85008B0797 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = yaunches;
 				TargetAttributes = {
 					700580851BA65E85008B0797 = {
@@ -621,33 +597,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				704E3AC21BA9B83F00974504 /* LinkedNode.m in Sources */,
-				27BD41DA1BB5CF700007F213 /* MinStackNode.m in Sources */,
+				709DF1BD1BBEC175007F6ED0 /* MergeSort.m in Sources */,
+				709DF1B91BBEC175007F6ED0 /* BubbleSort.m in Sources */,
+				706A1B1D1BB5BC95002C71DE /* Stack.m in Sources */,
 				704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */,
+				706A1B1E1BB5BC95002C71DE /* MinStackNode.m in Sources */,
+				709DF1BC1BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
-				2781405A1BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m in Sources */,
+				709DF1A51BBEC0BD007F6ED0 /* HanoiTower.m in Sources */,
 				704E3AA91BA9B1D600974504 /* GraphSort.m in Sources */,
-				27BD41E91BB980020007F213 /* HanoiTower.m in Sources */,
+				709DF1A61BBEC0BD007F6ED0 /* Tower.m in Sources */,
 				704E3A9B1BA9B1CE00974504 /* NSArray+Helpers.m in Sources */,
-				27BD41EC1BB980120007F213 /* Tower.m in Sources */,
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
+				709DF1BB1BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m in Sources */,
 				704E3AAD1BA9B1D600974504 /* GraphNode.m in Sources */,
+				709DF1AE1BBEC16A007F6ED0 /* BinarySearch.m in Sources */,
 				704E3AAB1BA9B1D600974504 /* BreadthFirstSearch.m in Sources */,
-				27DA28161BB99F5D00BA7A10 /* BubbleSort.m in Sources */,
-				27BD41DB1BB5CF700007F213 /* Stack.m in Sources */,
 				704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
-				704E3A951BA9B1C500974504 /* MergeSort.m in Sources */,
-				704E3AB91BA9B28400974504 /* BinarySearch.m in Sources */,
-				27BD41DF1BB5CF7B0007F213 /* NSNumber+Helpers.m in Sources */,
+				709DF1BA1BBEC175007F6ED0 /* NSMutableArray+HeapSort.m in Sources */,
+				706A1B251BB5BCCA002C71DE /* NSNumber+Helpers.m in Sources */,
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
+				709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */,
 				704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */,
 				7005808C1BA65E85008B0797 /* main.m in Sources */,
 				704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */,
-				27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */,
-				2781405D1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m in Sources */,
+				706A1B1F1BB5BC95002C71DE /* StackNode.m in Sources */,
 				704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */,
-				278B09E41BB9D256003EFA48 /* NSMutableArray+InsertionSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,18 +631,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70CAF2B51BA7A4BA00307561 /* GraphSortingSpec.m in Sources */,
-				70CAF2CA1BA869C400307561 /* BadNeighborsSpec.m in Sources */,
-				700580B81BA65FB4008B0797 /* DynamicProgSpecs.m in Sources */,
-				27BD41E41BB97EA80007F213 /* HanoiTowerSpec.m in Sources */,
-				27DA280F1BB99B0100BA7A10 /* LinkedListBasicsSpec.m in Sources */,
-				70CAF2CC1BA8CD0000307561 /* ListSortSpec.m in Sources */,
-				704E3ABC1BA9B7C000974504 /* PalindromeDetectionSpec.m in Sources */,
-				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
-				27B4CE4D1BBB561E00E23CCD /* VariousSpecs.m in Sources */,
-				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
-				27BD41E21BB5D0510007F213 /* StackSpec.m in Sources */,
-				27DA28111BB99B7600BA7A10 /* LinkedListLoopSpec.m in Sources */,
+				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
+				70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */,
+				709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */,
+				709DF1D01BBEC327007F6ED0 /* BinarySearchSpec.m in Sources */,
+				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
+				709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */,
+				709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */,
+				709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */,
+				709DF1C01BBEC2F6007F6ED0 /* HanoiTowerSpec.m in Sources */,
+				709DF1C71BBEC300007F6ED0 /* LinkedListLoopSpec.m in Sources */,
+				709DF1C11BBEC2F6007F6ED0 /* StackSpec.m in Sources */,
+				709DF1C61BBEC300007F6ED0 /* LinkedListBasicsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -721,6 +697,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -736,7 +713,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -774,7 +751,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -789,6 +766,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorithms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yaunches-inc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -800,6 +778,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorithms/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yaunches-inc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -820,6 +799,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AlgorithmsSpecs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yaunches-inc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
 			};
@@ -837,6 +817,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = AlgorithmsSpecs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yaunches-inc.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorithms.app/Algorithms";
 			};

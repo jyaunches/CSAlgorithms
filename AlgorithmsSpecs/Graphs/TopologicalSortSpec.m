@@ -10,8 +10,8 @@
 #import "GraphEdge.h"
 #import "GraphSort.h"
 
-SPEC_BEGIN(GraphSortSpec)
-describe(@"GraphSort", ^{
+SPEC_BEGIN(TopologicalSortSpec)
+describe(@"TopologicalSort", ^{
     //Find an order in which the following classes can be taken
 
     //        142
@@ -44,7 +44,7 @@ describe(@"GraphSort", ^{
                 edge5, edge7, edge8, edge10, edge9, edge11, edge13, edge14];
         GraphSort *graphSort = [[GraphSort alloc] init];
 
-        NSArray *result = [graphSort sort:edges];
+        NSArray *result = [graphSort topologicalSort:edges];
         NSNumber *first = result[0];
 
         [[first should ] equal:@(142)];
