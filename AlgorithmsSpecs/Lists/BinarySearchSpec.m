@@ -17,13 +17,14 @@ SPEC_BEGIN(BinarySearchSpec)
             beforeAll(^{
                 sortedArray = @[@(3), @(7), @(12), @(21), @(22), @(23), @(40), @(90), @(112)];
             });
+
             it(@"should do basic binary search", ^{
-                int indexOfResult = [BinarySearch basicSearch:sortedArray forItem:@(90)];
+                int indexOfResult = [BinarySearch search:sortedArray forItem:@(90)];
                 [[@(indexOfResult) should] equal:@(7)];
             });
 
             it(@"should return -1 if target not in array", ^{
-                int indexOfResult = [BinarySearch basicSearch:sortedArray forItem:@(4)];
+                int indexOfResult = [BinarySearch search:sortedArray forItem:@(4)];
                 [[@(indexOfResult) should] equal:@(-1)];
             });
         });

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -45,7 +46,6 @@
 		709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */; };
 		709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */; };
 		709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */; };
-		709DF1D01BBEC327007F6ED0 /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CC1BBEC327007F6ED0 /* BinarySearchSpec.m */; };
 		709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */; };
 		70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */; };
 		70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */; };
@@ -65,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		14C58A8CDABE05ECB40002EA /* Pods-AlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
+		27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchSpec.m; path = Lists/BinarySearchSpec.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,7 +137,6 @@
 		709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalindromeDetectionSpec.m; path = Lists/PalindromeDetectionSpec.m; sourceTree = "<group>"; };
 		709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetectConnectedComponentsSpec.m; path = Graphs/DetectConnectedComponentsSpec.m; sourceTree = "<group>"; };
 		709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopologicalSortSpec.m; path = Graphs/TopologicalSortSpec.m; sourceTree = "<group>"; };
-		709DF1CC1BBEC327007F6ED0 /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchSpec.m; path = Graphs/BinarySearchSpec.m; sourceTree = "<group>"; };
 		709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSearchSpec.m; path = Graphs/GraphSearchSpec.m; sourceTree = "<group>"; };
 		70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicProgSpecs.m; path = DynamicProgramming/DynamicProgSpecs.m; sourceTree = "<group>"; };
 		70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadNeighborsSpec.m; path = DynamicProgramming/BadNeighborsSpec.m; sourceTree = "<group>"; };
@@ -308,6 +308,7 @@
 		704E3ABA1BA9B28D00974504 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
+				27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */,
 				709DF1C21BBEC300007F6ED0 /* LinkedListBasicsSpec.m */,
 				709DF1C31BBEC300007F6ED0 /* LinkedListLoopSpec.m */,
 				709DF1C41BBEC300007F6ED0 /* ListSortSpec.m */,
@@ -373,7 +374,6 @@
 			children = (
 				709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */,
 				709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */,
-				709DF1CC1BBEC327007F6ED0 /* BinarySearchSpec.m */,
 				709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */,
 			);
 			name = Graphs;
@@ -634,11 +634,11 @@
 				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
 				70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */,
 				709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */,
-				709DF1D01BBEC327007F6ED0 /* BinarySearchSpec.m in Sources */,
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
 				709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */,
 				709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */,
 				709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */,
+				27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */,
 				709DF1C01BBEC2F6007F6ED0 /* HanoiTowerSpec.m in Sources */,
 				709DF1C71BBEC300007F6ED0 /* LinkedListLoopSpec.m in Sources */,
 				709DF1C11BBEC2F6007F6ED0 /* StackSpec.m in Sources */,

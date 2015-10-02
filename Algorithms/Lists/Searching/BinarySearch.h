@@ -10,7 +10,7 @@
 
 @interface BinarySearch : NSObject
 
-+ (int)basicSearch:(NSArray *)array forItem:(NSNumber *)target;
++ (int)search:(NSArray *)array forItem:(NSNumber *)target;
 
 + (NSNumber *)minElementIn:(NSArray *)array;
 @end
