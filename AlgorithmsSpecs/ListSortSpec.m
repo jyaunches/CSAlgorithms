@@ -47,4 +47,11 @@ SPEC_BEGIN(ListSortSpec)
                 [[unsorted should] equal:expectedResult];
             });
         });
+
+        describe(@"HeapSort", ^{
+            it(@"should perform insertion sort", ^{
+                [unsorted selectionSort];
+                [[unsorted should] equal:expectedResult];
+            });
+        });
 SPEC_END

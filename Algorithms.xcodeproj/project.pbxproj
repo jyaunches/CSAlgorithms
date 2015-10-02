@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2781405A1BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 278140591BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m */; };
+		2781405D1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2781405C1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m */; };
 		278B09E41BB9D256003EFA48 /* NSMutableArray+InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */; };
+		27B4CE4D1BBB561E00E23CCD /* VariousSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE4C1BBB561E00E23CCD /* VariousSpecs.m */; };
 		27BD41DA1BB5CF700007F213 /* MinStackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D51BB5CF700007F213 /* MinStackNode.m */; };
 		27BD41DB1BB5CF700007F213 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D71BB5CF700007F213 /* Stack.m */; };
 		27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BD41D91BB5CF700007F213 /* StackNode.m */; };
@@ -65,8 +67,11 @@
 		14C58A8CDABE05ECB40002EA /* Pods-AlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
 		278140581BB9E28E00BD64CC /* NSMutableArray+SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SelectionSort.h"; sourceTree = "<group>"; };
 		278140591BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SelectionSort.m"; sourceTree = "<group>"; };
+		2781405B1BBAC63F00BD64CC /* NSMutableArray+HeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+HeapSort.h"; sourceTree = "<group>"; };
+		2781405C1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HeapSort.m"; sourceTree = "<group>"; };
 		278B09E21BB9D256003EFA48 /* NSMutableArray+InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+InsertionSort.h"; sourceTree = "<group>"; };
 		278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+InsertionSort.m"; sourceTree = "<group>"; };
+		27B4CE4C1BBB561E00E23CCD /* VariousSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariousSpecs.m; sourceTree = "<group>"; };
 		27BD41D41BB5CF700007F213 /* MinStackNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MinStackNode.h; path = Stacks_Queues/MinStackNode.h; sourceTree = "<group>"; };
 		27BD41D51BB5CF700007F213 /* MinStackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MinStackNode.m; path = Stacks_Queues/MinStackNode.m; sourceTree = "<group>"; };
 		27BD41D61BB5CF700007F213 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stack.h; path = Stacks_Queues/Stack.h; sourceTree = "<group>"; };
@@ -175,6 +180,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		27B4CE4B1BBB55EE00E23CCD /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				27B4CE4C1BBB561E00E23CCD /* VariousSpecs.m */,
+			);
+			name = ObjectiveC;
+			sourceTree = "<group>";
+		};
 		27BD41D31BB5CF570007F213 /* Stacks_Queues */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +241,8 @@
 				278B09E31BB9D256003EFA48 /* NSMutableArray+InsertionSort.m */,
 				278140581BB9E28E00BD64CC /* NSMutableArray+SelectionSort.h */,
 				278140591BB9E28E00BD64CC /* NSMutableArray+SelectionSort.m */,
+				2781405B1BBAC63F00BD64CC /* NSMutableArray+HeapSort.h */,
+				2781405C1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m */,
 			);
 			name = Sorting;
 			sourceTree = "<group>";
@@ -293,6 +308,7 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
+				27B4CE4B1BBB55EE00E23CCD /* ObjectiveC */,
 				27DA280D1BB99ACC00BA7A10 /* Search */,
 				27DA280C1BB99A9800BA7A10 /* Sorting */,
 				27BD41E01BB5D03D0007F213 /* Stacks_Queues */,
@@ -629,6 +645,7 @@
 				7005808C1BA65E85008B0797 /* main.m in Sources */,
 				704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */,
 				27BD41DC1BB5CF700007F213 /* StackNode.m in Sources */,
+				2781405D1BBAC63F00BD64CC /* NSMutableArray+HeapSort.m in Sources */,
 				704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */,
 				278B09E41BB9D256003EFA48 /* NSMutableArray+InsertionSort.m in Sources */,
 			);
@@ -646,6 +663,7 @@
 				70CAF2CC1BA8CD0000307561 /* ListSortSpec.m in Sources */,
 				704E3ABC1BA9B7C000974504 /* PalindromeDetectionSpec.m in Sources */,
 				70BC44501BA772310011AFF4 /* GraphSearchSpec.m in Sources */,
+				27B4CE4D1BBB561E00E23CCD /* VariousSpecs.m in Sources */,
 				70CAF2BE1BA85A6F00307561 /* BinarySearchSpec.m in Sources */,
 				27BD41E21BB5D0510007F213 /* StackSpec.m in Sources */,
 				27DA28111BB99B7600BA7A10 /* LinkedListLoopSpec.m in Sources */,
