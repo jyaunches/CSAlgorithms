@@ -10,9 +10,8 @@
 
 @class BinaryTreeNode;
 
-
 @interface BinaryTree : NSObject
 - (id)initWithRoot:(BinaryTreeNode *)root;
-- (BOOL)isBST:(BinaryTreeNode *)node withMin:(NSInteger)min andMax:(NSInteger)max;
 - (BOOL)isBST;
+
 @end

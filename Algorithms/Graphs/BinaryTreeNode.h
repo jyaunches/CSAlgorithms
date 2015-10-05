@@ -11,12 +11,9 @@
 @interface BinaryTreeNode : NSObject
 @property(nonatomic) int value;
 @property(nonatomic, strong) BinaryTreeNode *left;
-
 @property(nonatomic, strong) BinaryTreeNode *right;
 
 - (id)initWithValue:(int)value;
-
 - (BOOL)isLeaf;
-
 - (BOOL)bstChildrenSatisfyMin:(NSInteger)min andMax:(NSInteger)max;
 @end

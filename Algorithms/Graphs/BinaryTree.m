@@ -13,10 +13,6 @@
 @property(nonatomic, strong) BinaryTreeNode *root;
 @end
 
-
-int NO_MAX = -1;
-int NO_MIN = -1;
-
 @implementation BinaryTree
 
 - (id)initWithRoot:(BinaryTreeNode *)root {
@@ -67,14 +63,15 @@ int NO_MIN = -1;
 }
 
 - (BOOL)isBST:(BinaryTreeNode *)node withMin:(NSInteger)min andMax:(NSInteger)max {
-    if(!node || [node isLeaf])
+    if (!node || [node isLeaf])
         return YES;
 
-    if(![node bstChildrenSatisfyMin:min andMax:max])
+    if (![node bstChildrenSatisfyMin:min andMax:max])
         return NO;
 
-    BOOL leftIsBST = [self isBST:node.left withMin:min andMax:node.value ];
+    BOOL leftIsBST = [self isBST:node.left withMin:min andMax:node.value];
     BOOL rightIsBST = [self isBST:node.right withMin:node.value andMax:max];
     return leftIsBST && rightIsBST;
 }
+
 @end
