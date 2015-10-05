@@ -13,6 +13,8 @@
 		27B4CE571BBED40E00E23CCD /* BinarySearchTreeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */; };
 		27B4CE591BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE581BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m */; };
 		27B4CE5F1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE5E1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m */; };
+		27B4CE621BC3195E00E23CCD /* DirectedGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE611BC3195E00E23CCD /* DirectedGraph.m */; };
+		27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -79,6 +81,9 @@
 		27B4CE581BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeAncestorFinderSpec.m; path = Graphs/BinaryTreeAncestorFinderSpec.m; sourceTree = "<group>"; };
 		27B4CE5D1BC3144F00E23CCD /* BinaryTreeAncestorFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeAncestorFinder.h; sourceTree = "<group>"; };
 		27B4CE5E1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeAncestorFinder.m; sourceTree = "<group>"; };
+		27B4CE601BC3195E00E23CCD /* DirectedGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectedGraph.h; path = Graphs/DirectedGraph.h; sourceTree = "<group>"; };
+		27B4CE611BC3195E00E23CCD /* DirectedGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectedGraph.m; path = Graphs/DirectedGraph.m; sourceTree = "<group>"; };
+		27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectedGraphSpec.m; path = Graphs/DirectedGraphSpec.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -294,6 +299,8 @@
 				27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */,
 				27B4CE5D1BC3144F00E23CCD /* BinaryTreeAncestorFinder.h */,
 				27B4CE5E1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m */,
+				27B4CE601BC3195E00E23CCD /* DirectedGraph.h */,
+				27B4CE611BC3195E00E23CCD /* DirectedGraph.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -396,6 +403,7 @@
 				709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */,
 				27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */,
 				27B4CE581BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m */,
+				27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -644,6 +652,7 @@
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
 				709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */,
 				704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */,
+				27B4CE621BC3195E00E23CCD /* DirectedGraph.m in Sources */,
 				7005808C1BA65E85008B0797 /* main.m in Sources */,
 				704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */,
 				706A1B1F1BB5BC95002C71DE /* StackNode.m in Sources */,
@@ -657,6 +666,7 @@
 			files = (
 				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
 				27B4CE591BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m in Sources */,
+				27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */,
 				70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */,
 				709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */,
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
