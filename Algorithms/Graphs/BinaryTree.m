@@ -13,6 +13,10 @@
 @property(nonatomic, strong) BinaryTreeNode *root;
 @end
 
+
+int NO_MAX = -1;
+int NO_MIN = -1;
+
 @implementation BinaryTree
 
 - (id)initWithRoot:(BinaryTreeNode *)root {
@@ -31,20 +35,39 @@
 //          20
 //        /    \
 //       12     32
-//      / \     /
-//    12   26  16
+//      / \       \
+//    12   14     41
+//        /  \    /
+//       13  19  10 <- node that breaks it
+//   Ex. This graph should return YES
+//          20
+//        /    \
+//       12     32
+//      / \       \
+//    12   14     41
+//        /  \    /
+//       13  19  34
 //   Solution:
 //   for a given node down the left it needs to <= the min value of all it's parent nodes
 //   for a given node down the right it needs to > the max value of all it's parent nodes
 //   as we traverse the graph keep track of and pass down parent nodes min/max value
+//
+//   NOTE: we need to evaluate a nodes children with the min and max as a left child can be <= min
+//   while a right child must be < min
+//       12
+//      / \           <- correct BST
+//    12   14
+//       12
+//      / \           <- incorrect BST
+//    10   12
 
 
 - (BOOL)isBST {
-    return [self isBST:self.root withMin:0 andMax:self.root.value];
+    return [self isBST:self.root withMin:NO_MIN andMax:NO_MAX];
 }
 
 - (BOOL)isBST:(BinaryTreeNode *)node withMin:(int)min andMax:(int)max {
-    if([node isLeaf])
+    if(!node || [node isLeaf])
         return YES;
 
     if(![node bstChildrenSatisfyMin:min andMax:max])
