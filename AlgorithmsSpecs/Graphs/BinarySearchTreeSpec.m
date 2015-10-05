@@ -168,7 +168,35 @@ SPEC_BEGIN(BinarySearchTreeSpec)
                 });
             });
 
+            describe(@"BST creation", ^{
+                it(@"should create a binary search tree from a sorted, incrementing array", ^{
+                    BinaryTreeNode *node2 = [[BinaryTreeNode alloc] initWithValue:2];
+                    BinaryTreeNode *node4 = [[BinaryTreeNode alloc] initWithValue:4];
+                    BinaryTreeNode *node7 = [[BinaryTreeNode alloc] initWithValue:7];
+                    BinaryTreeNode *node10 = [[BinaryTreeNode alloc] initWithValue:10];
+                    BinaryTreeNode *node14 = [[BinaryTreeNode alloc] initWithValue:14];
+                    BinaryTreeNode *node15 = [[BinaryTreeNode alloc] initWithValue:15];
+                    BinaryTreeNode *node21 = [[BinaryTreeNode alloc] initWithValue:21];
+                    BinaryTreeNode *node28 = [[BinaryTreeNode alloc] initWithValue:28];
 
+                    NSArray *input = @[node2, node4, node7, node10, node14, node15, node21, node28];
+
+                    // expected BST
+                    //          14
+                    //        /    \
+                    //       7      21
+                    //      / \    /  \
+                    //     4  10 15  28
+                    //    /
+                    //   2
+
+                    BinaryTree *tree = [[BinaryTree alloc] initWithSortedIncrementingArray:input];
+
+                    [[tree.root.left should] equal:node7];
+                    [[tree.root.right should] equal:node21];
+                });
+
+            });
 
         });
 SPEC_END

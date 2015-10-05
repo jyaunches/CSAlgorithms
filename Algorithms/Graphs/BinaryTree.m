@@ -9,16 +9,39 @@
 #import "BinaryTree.h"
 #import "BinaryTreeNode.h"
 
-@interface BinaryTree ()
-@property(nonatomic, strong) BinaryTreeNode *root;
-@end
-
 @implementation BinaryTree
 
 - (id)initWithRoot:(BinaryTreeNode *)root {
     self = [super init];
     self.root = root;
     return self;
+}
+
+- (id)initWithSortedIncrementingArray:(NSArray *)array {
+    self = [super init];
+    self.root = [self arrayToBST:array];    
+    
+    return self;
+}
+
+- (BinaryTreeNode *)arrayToBST:(NSArray *)array {
+    if(array.count == 0){
+        return nil;
+    }
+    NSUInteger midIndex = 0;
+    if(array.count > 1){
+        midIndex = (NSUInteger)ceilf(array.count/2);
+    }
+
+    BinaryTreeNode *root = array[midIndex];
+    NSArray *leftTree = [array subarrayWithRange:NSMakeRange(0, midIndex)];
+    NSUInteger lengthOfRightArray = array.count-midIndex-1;
+    NSArray *rightTree = [array subarrayWithRange:NSMakeRange(midIndex+1, lengthOfRightArray)];
+
+    root.left = [self arrayToBST:leftTree];
+    root.right = [self arrayToBST:rightTree];
+
+    return root;
 }
 
 // Determine if a binary tree is a binary search tree

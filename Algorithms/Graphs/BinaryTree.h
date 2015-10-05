@@ -11,7 +11,10 @@
 @class BinaryTreeNode;
 
 @interface BinaryTree : NSObject
+@property(nonatomic, strong) BinaryTreeNode *root;
+
 - (id)initWithRoot:(BinaryTreeNode *)root;
+- (id)initWithSortedIncrementingArray:(NSArray *)array;
 - (BOOL)isBST;
 
 @end
