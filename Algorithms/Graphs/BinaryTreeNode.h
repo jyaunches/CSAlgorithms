@@ -18,5 +18,5 @@
 
 - (BOOL)isLeaf;
 
-- (BOOL)bstChildrenSatisfyMin:(int)min andMax:(int)max;
+- (BOOL)bstChildrenSatisfyMin:(NSInteger)min andMax:(NSInteger)max;
 @end

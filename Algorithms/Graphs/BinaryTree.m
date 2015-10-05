@@ -63,10 +63,10 @@ int NO_MIN = -1;
 
 
 - (BOOL)isBST {
-    return [self isBST:self.root withMin:NO_MIN andMax:NO_MAX];
+    return [self isBST:self.root withMin:NSIntegerMin andMax:NSIntegerMax];
 }
 
-- (BOOL)isBST:(BinaryTreeNode *)node withMin:(int)min andMax:(int)max {
+- (BOOL)isBST:(BinaryTreeNode *)node withMin:(NSInteger)min andMax:(NSInteger)max {
     if(!node || [node isLeaf])
         return YES;
 
