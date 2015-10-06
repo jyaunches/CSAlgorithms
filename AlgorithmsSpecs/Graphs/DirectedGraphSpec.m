@@ -14,7 +14,7 @@
 
 SPEC_BEGIN(DirectedGraphSpec)
         describe(@"DirectedGraph", ^{
-            describe(@"Route determination", ^{
+            describe(@"Route existence determination", ^{
                 __block GraphNode *node3;
                 __block GraphNode *node9;
                 __block GraphNode *node5;
@@ -61,6 +61,12 @@ SPEC_BEGIN(DirectedGraphSpec)
                     BOOL routeExists = [DirectedGraph routeExistsFrom:nil to:node5];
                     [[@(routeExists) should] beFalse];
                 });
+            });
+
+
+
+            describe(@"Shortest route determination", ^{
+
             });
 
         });
