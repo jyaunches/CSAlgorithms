@@ -10,6 +10,8 @@
 		273EAE1F1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE1D1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m */; };
 		273EAE201BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE1E1BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m */; };
 		273EAE231BC6B3C3003A873D /* BinaryTreeAncestorFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE221BC6B3C3003A873D /* BinaryTreeAncestorFinder.m */; };
+		273EAE271BCC10BC003A873D /* PrimeNumbersSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE261BCC10BC003A873D /* PrimeNumbersSpec.m */; };
+		273EAE2A1BCC3DA6003A873D /* PrimeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE291BCC3DA6003A873D /* PrimeNumber.m */; };
 		27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */; };
 		27B4CE521BBECC2D00E23CCD /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE511BBECC2D00E23CCD /* BinaryTree.m */; };
 		27B4CE551BBED3AC00E23CCD /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */; };
@@ -78,6 +80,9 @@
 		273EAE1E1BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeAncestorFinderSpec.m; path = Graphs/BinaryTreeAncestorFinderSpec.m; sourceTree = "<group>"; };
 		273EAE211BC6B3C3003A873D /* BinaryTreeAncestorFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeAncestorFinder.h; path = Graphs/BinaryTreeAncestorFinder.h; sourceTree = "<group>"; };
 		273EAE221BC6B3C3003A873D /* BinaryTreeAncestorFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeAncestorFinder.m; path = Graphs/BinaryTreeAncestorFinder.m; sourceTree = "<group>"; };
+		273EAE261BCC10BC003A873D /* PrimeNumbersSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeNumbersSpec.m; sourceTree = "<group>"; };
+		273EAE281BCC3DA6003A873D /* PrimeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeNumber.h; sourceTree = "<group>"; };
+		273EAE291BCC3DA6003A873D /* PrimeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeNumber.m; sourceTree = "<group>"; };
 		27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchSpec.m; path = Lists/BinarySearchSpec.m; sourceTree = "<group>"; };
 		27B4CE501BBECC2D00E23CCD /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTree.h; path = Graphs/BinaryTree.h; sourceTree = "<group>"; };
 		27B4CE511BBECC2D00E23CCD /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTree.m; path = Graphs/BinaryTree.m; sourceTree = "<group>"; };
@@ -203,6 +208,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		273EAE241BCC1096003A873D /* Math_Probability */ = {
+			isa = PBXGroup;
+			children = (
+				273EAE281BCC3DA6003A873D /* PrimeNumber.h */,
+				273EAE291BCC3DA6003A873D /* PrimeNumber.m */,
+			);
+			name = Math_Probability;
+			sourceTree = "<group>";
+		};
+		273EAE251BCC10A5003A873D /* Math_Probablity */ = {
+			isa = PBXGroup;
+			children = (
+				273EAE261BCC10BC003A873D /* PrimeNumbersSpec.m */,
+			);
+			name = Math_Probablity;
+			sourceTree = "<group>";
+		};
 		7005807D1BA65E85008B0797 = {
 			isa = PBXGroup;
 			children = (
@@ -226,6 +248,7 @@
 		700580881BA65E85008B0797 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				273EAE241BCC1096003A873D /* Math_Probability */,
 				706A1B161BB5BC63002C71DE /* Stacks_Queues */,
 				704E3A921BA9B1B400974504 /* Lists */,
 				704E3A911BA9B1AE00974504 /* Helpers */,
@@ -255,6 +278,7 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
+				273EAE251BCC10A5003A873D /* Math_Probablity */,
 				706A1B201BB5BC9D002C71DE /* Stacks_Queues */,
 				704E3ABA1BA9B28D00974504 /* Lists */,
 				70CAF2C81BA869A500307561 /* DynamicProgramming */,
@@ -640,6 +664,7 @@
 				706A1B1D1BB5BC95002C71DE /* Stack.m in Sources */,
 				704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */,
 				706A1B1E1BB5BC95002C71DE /* MinStackNode.m in Sources */,
+				273EAE2A1BCC3DA6003A873D /* PrimeNumber.m in Sources */,
 				709DF1BC1BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
 				709DF1A51BBEC0BD007F6ED0 /* HanoiTower.m in Sources */,
@@ -682,6 +707,7 @@
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
 				709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */,
 				709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */,
+				273EAE271BCC10BC003A873D /* PrimeNumbersSpec.m in Sources */,
 				709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */,
 				27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */,
 				709DF1C01BBEC2F6007F6ED0 /* HanoiTowerSpec.m in Sources */,
