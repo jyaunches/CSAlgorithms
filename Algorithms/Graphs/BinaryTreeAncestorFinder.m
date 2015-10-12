@@ -16,12 +16,14 @@
 @end
 
 @implementation BinaryTreeAncestorFinder
+
 - (id)initWithRoot:(BinaryTreeNode *)root {
     self = [super init];
     self.root = root;
     self.identifiedDescendants = 0;
     return self;
 }
+
 - (BinaryTreeNode *)commonAncestor:(BinaryTreeNode *)node1 and:(BinaryTreeNode *)node2 {
     [self subTree:self.root containsNode:node1 or:node2];
     return self.commonAncestor;

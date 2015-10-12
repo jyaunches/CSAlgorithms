@@ -10,5 +10,5 @@
 
 @interface DigitSum : NSObject
 
-+ (int)finalCount:(int)digits withSum:(int)sum;
++ (int)countSumsWithNumberOfDigits:(int)digits forTarget:(int)sum;
 @end

@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273EAE1F1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE1D1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m */; };
+		273EAE201BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE1E1BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m */; };
+		273EAE231BC6B3C3003A873D /* BinaryTreeAncestorFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 273EAE221BC6B3C3003A873D /* BinaryTreeAncestorFinder.m */; };
 		27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */; };
 		27B4CE521BBECC2D00E23CCD /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE511BBECC2D00E23CCD /* BinaryTree.m */; };
 		27B4CE551BBED3AC00E23CCD /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */; };
 		27B4CE571BBED40E00E23CCD /* BinarySearchTreeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */; };
-		27B4CE591BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE581BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m */; };
-		27B4CE5F1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE5E1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m */; };
 		27B4CE621BC3195E00E23CCD /* DirectedGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE611BC3195E00E23CCD /* DirectedGraph.m */; };
 		27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */; };
+		27B4CE6C1BC43EA000E23CCD /* BinaryTreePathValueFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B4CE6B1BC43EA000E23CCD /* BinaryTreePathValueFinder.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -72,18 +74,21 @@
 
 /* Begin PBXFileReference section */
 		14C58A8CDABE05ECB40002EA /* Pods-AlgorithmsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.release.xcconfig"; sourceTree = "<group>"; };
+		273EAE1D1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreePathValueFinderSpec.m; path = Graphs/BinaryTreePathValueFinderSpec.m; sourceTree = "<group>"; };
+		273EAE1E1BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeAncestorFinderSpec.m; path = Graphs/BinaryTreeAncestorFinderSpec.m; sourceTree = "<group>"; };
+		273EAE211BC6B3C3003A873D /* BinaryTreeAncestorFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeAncestorFinder.h; path = Graphs/BinaryTreeAncestorFinder.h; sourceTree = "<group>"; };
+		273EAE221BC6B3C3003A873D /* BinaryTreeAncestorFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeAncestorFinder.m; path = Graphs/BinaryTreeAncestorFinder.m; sourceTree = "<group>"; };
 		27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchSpec.m; path = Lists/BinarySearchSpec.m; sourceTree = "<group>"; };
 		27B4CE501BBECC2D00E23CCD /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTree.h; path = Graphs/BinaryTree.h; sourceTree = "<group>"; };
 		27B4CE511BBECC2D00E23CCD /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTree.m; path = Graphs/BinaryTree.m; sourceTree = "<group>"; };
 		27B4CE531BBED3AC00E23CCD /* BinaryTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreeNode.h; path = Graphs/BinaryTreeNode.h; sourceTree = "<group>"; };
 		27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeNode.m; path = Graphs/BinaryTreeNode.m; sourceTree = "<group>"; };
 		27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinarySearchTreeSpec.m; path = Graphs/BinarySearchTreeSpec.m; sourceTree = "<group>"; };
-		27B4CE581BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeAncestorFinderSpec.m; path = Graphs/BinaryTreeAncestorFinderSpec.m; sourceTree = "<group>"; };
-		27B4CE5D1BC3144F00E23CCD /* BinaryTreeAncestorFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryTreeAncestorFinder.h; sourceTree = "<group>"; };
-		27B4CE5E1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeAncestorFinder.m; sourceTree = "<group>"; };
 		27B4CE601BC3195E00E23CCD /* DirectedGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectedGraph.h; path = Graphs/DirectedGraph.h; sourceTree = "<group>"; };
 		27B4CE611BC3195E00E23CCD /* DirectedGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectedGraph.m; path = Graphs/DirectedGraph.m; sourceTree = "<group>"; };
 		27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectedGraphSpec.m; path = Graphs/DirectedGraphSpec.m; sourceTree = "<group>"; };
+		27B4CE6A1BC43EA000E23CCD /* BinaryTreePathValueFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTreePathValueFinder.h; path = Graphs/BinaryTreePathValueFinder.h; sourceTree = "<group>"; };
+		27B4CE6B1BC43EA000E23CCD /* BinaryTreePathValueFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreePathValueFinder.m; path = Graphs/BinaryTreePathValueFinder.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -283,6 +288,8 @@
 		704E3A901BA9B1A900974504 /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
+				273EAE211BC6B3C3003A873D /* BinaryTreeAncestorFinder.h */,
+				273EAE221BC6B3C3003A873D /* BinaryTreeAncestorFinder.m */,
 				704E3A9E1BA9B1D600974504 /* GraphSort.m */,
 				704E3A9F1BA9B1D600974504 /* GraphEdge.m */,
 				704E3AA01BA9B1D600974504 /* GraphEdge.h */,
@@ -297,10 +304,10 @@
 				27B4CE511BBECC2D00E23CCD /* BinaryTree.m */,
 				27B4CE531BBED3AC00E23CCD /* BinaryTreeNode.h */,
 				27B4CE541BBED3AC00E23CCD /* BinaryTreeNode.m */,
-				27B4CE5D1BC3144F00E23CCD /* BinaryTreeAncestorFinder.h */,
-				27B4CE5E1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m */,
 				27B4CE601BC3195E00E23CCD /* DirectedGraph.h */,
 				27B4CE611BC3195E00E23CCD /* DirectedGraph.m */,
+				27B4CE6A1BC43EA000E23CCD /* BinaryTreePathValueFinder.h */,
+				27B4CE6B1BC43EA000E23CCD /* BinaryTreePathValueFinder.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -398,11 +405,12 @@
 		70CAF2B01BA79A1600307561 /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
+				273EAE1D1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m */,
+				273EAE1E1BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m */,
 				709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */,
 				709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */,
 				709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */,
 				27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */,
-				27B4CE581BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m */,
 				27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */,
 			);
 			name = Graphs;
@@ -627,6 +635,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				709DF1BD1BBEC175007F6ED0 /* MergeSort.m in Sources */,
+				273EAE231BC6B3C3003A873D /* BinaryTreeAncestorFinder.m in Sources */,
 				709DF1B91BBEC175007F6ED0 /* BubbleSort.m in Sources */,
 				706A1B1D1BB5BC95002C71DE /* Stack.m in Sources */,
 				704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */,
@@ -639,6 +648,7 @@
 				704E3A9B1BA9B1CE00974504 /* NSArray+Helpers.m in Sources */,
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
 				27B4CE551BBED3AC00E23CCD /* BinaryTreeNode.m in Sources */,
+				27B4CE6C1BC43EA000E23CCD /* BinaryTreePathValueFinder.m in Sources */,
 				27B4CE521BBECC2D00E23CCD /* BinaryTree.m in Sources */,
 				709DF1BB1BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m in Sources */,
 				704E3AAD1BA9B1D600974504 /* GraphNode.m in Sources */,
@@ -647,7 +657,6 @@
 				704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
 				709DF1BA1BBEC175007F6ED0 /* NSMutableArray+HeapSort.m in Sources */,
-				27B4CE5F1BC3144F00E23CCD /* BinaryTreeAncestorFinder.m in Sources */,
 				706A1B251BB5BCCA002C71DE /* NSNumber+Helpers.m in Sources */,
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
 				709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */,
@@ -664,11 +673,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273EAE201BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m in Sources */,
 				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
-				27B4CE591BC2E00000E23CCD /* BinaryTreeAncestorFinderSpec.m in Sources */,
 				27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */,
 				70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */,
 				709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */,
+				273EAE1F1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m in Sources */,
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
 				709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */,
 				709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */,

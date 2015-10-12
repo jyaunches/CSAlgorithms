@@ -11,6 +11,23 @@
 
 @implementation DigitSum
 
+// Problem: given a provided target, and a given number of digits to work with,
+// count the number of sums that will add up to the target.
+// Example: digits: 2, target: 5
+// Result: 1+4, 2+3, 0+5   <- should return 3 for this input
+
++ (int)countSumsWithNumberOfDigits:(int)digits forTarget:(int)target {
+    int numberOfResults = 0;
+
+    // Traverse through every digit from 1 to
+    // 9 and count numbers beginning with it
+    for (int i = 0; i <= 9; i++)
+        if (target-i >= 0)
+            numberOfResults += [self getCount:digits - 1 sum:target - i];
+
+    return numberOfResults;
+}
+
 + (int)getCount:(int)digits sum:(int)sum {
     if(digits == 0){
         if(sum == 0){
@@ -29,23 +46,6 @@
     }
 
     return numberOfResults;
-}
-
-+ (int)finalCount:(int)digits withSum:(int)sum {
-    //digits = 2
-    //sum = 5
-    //a result = 14
-
-    int numberOfResults = 0;
-
-    // Traverse through every digit from 1 to
-    // 9 and count numbers beginning with it
-    for (int i = 0; i <= 9; i++)
-        if (sum-i >= 0)
-            numberOfResults += [self getCount:digits - 1 sum:sum - i];
-
-    return numberOfResults;
-
 }
 
 @end

@@ -13,9 +13,9 @@
 SPEC_BEGIN(DynamicProgrammingSpec)
         describe(@"DynamicProg", ^{
 
-            it(@"should count n digit numbers whose sum of digits is equal to given sum", ^{
-//        NSNumber *number = @([DigitSum finalCount:2 withSum:5]);
-//        [[number should] equal:@(5)];
+            xit(@"should count n digit numbers whose sum of digits is equal to given sum", ^{
+                NSNumber *number = @([DigitSum countSumsWithNumberOfDigits:2 forTarget:5]);
+                [[number should] equal:@(5)];
             });
 
             it(@"should find min number of coins for sum", ^{
