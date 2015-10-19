@@ -16,5 +16,4 @@
 - (id)initWithRoot:(BinaryTreeNode *)root;
 - (id)initWithSortedIncrementingArray:(NSArray *)array;
 - (BOOL)isBST;
-
 @end

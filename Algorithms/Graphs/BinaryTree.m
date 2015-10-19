@@ -17,14 +17,22 @@
     return self;
 }
 
+// Initialize a binary search tree from a sorted array
 - (id)initWithSortedIncrementingArray:(NSArray *)array {
     self = [super init];
-    self.root = [self arrayToBST:array];    
-    
+    self.root = [self sortedArrayToBST:array];
     return self;
 }
 
-- (BinaryTreeNode *)arrayToBST:(NSArray *)array {
+// Algorithm:
+// Identify root as the middle index of the incoming array
+//  -> subarray leading to this element is it's left tree
+//  -> subarray following this element is it's right tree
+// Recursively sort subtrees using subsequent calls to method
+
+// Asymptotic Analysis: O(n)... even though it appears to be divide and conquer,
+// calls to sort will happen for every node in the array
+- (BinaryTreeNode *)sortedArrayToBST:(NSArray *)array {
     if(array.count == 0){
         return nil;
     }
@@ -38,8 +46,8 @@
     NSUInteger lengthOfRightArray = array.count-midIndex-1;
     NSArray *rightTree = [array subarrayWithRange:NSMakeRange(midIndex+1, lengthOfRightArray)];
 
-    root.left = [self arrayToBST:leftTree];
-    root.right = [self arrayToBST:rightTree];
+    root.left = [self sortedArrayToBST:leftTree];
+    root.right = [self sortedArrayToBST:rightTree];
 
     return root;
 }
@@ -80,6 +88,10 @@
 //      / \           <- incorrect BST
 //    10   12
 
+// Asymptotic Analysis:
+// Best case: O(1) <- we find in the first comparison that it's not
+// Worst case: O(E) <- we have to analyze all edges to determine that it is or find that 
+//      it's not in the last, right-most leaf node
 
 - (BOOL)isBST {
     return [self isBST:self.root withMin:NSIntegerMin andMax:NSIntegerMax];
