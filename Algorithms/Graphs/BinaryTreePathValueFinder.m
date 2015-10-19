@@ -57,6 +57,8 @@
 //     * When both left and right subtrees return from their calls to evalNode, the evalQueue
 //       pops the current node from the queue. This ensures no already visited nodes remain in the evalQueue
 
+// Asymptotic Analysis:
+// DFS -> O(E) + any setup/interim storage/summing etc..
 
 - (NSArray *)evaluateForTarget:(int)target {
     if (!self.root)
