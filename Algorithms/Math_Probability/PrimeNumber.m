@@ -12,6 +12,9 @@
 @implementation PrimeNumber
 
 // Notes:
+// Asymptotic Analysis:
+// n (initial population of array) + ~n removals == ~2n operations
+// O(n)
 
 + (NSArray *)getPrimesUnder:(int)input {
     NSMutableArray *candidates = [@[@(2)] mutableCopy];
@@ -39,7 +42,7 @@
     //   by evaluating the multiples of all the primes under n we will have reached all numbers that are non-primes(multiples of other primes)
     
     // Input: 73
-    // Non prime subnumbers:
+    // Non prime sub-numbers:
     // 49 = 2^0 * 3^0 * 5^0 * 7^2 * 11^0 *  ...
     // 57 = 2^0 * 3^1 * 5^0 * 7^2 * 11^0 * 13^0 * 17^0 * 19^1 *  ...
 
@@ -52,11 +55,16 @@
     // In this example the next prime number after 7 is 13... now there may be numbers
     // between 49 and 73 that are multiples of 13... but that multiplier would have to be < 7
     // meaning as long as we evaluated the lower primes, we will have already removed it
-    
+
     while (curPrime.doubleValue <= sqrt(input)) {
+        // remove all multiples of a given prime number
+
+        int removals = 0;
         for (int i = curPrime.intValue * curPrime.intValue; i < input; i += curPrime.intValue) {
             [candidates removeObject:@(i)];
+            removals++;
         }
+        NSLog(@"Removals: %i", removals);
 
         curEvalIndex++;
         curPrime = candidates[curEvalIndex];
