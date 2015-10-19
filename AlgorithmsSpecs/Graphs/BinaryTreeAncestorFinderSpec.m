@@ -23,16 +23,18 @@ SPEC_BEGIN(BinaryTreeAncestorFinderSpec)
             //       13      10
 
             __block BinaryTreeAncestorFinder *tree;
+            __block BinaryTreeNode *btRoot;
             __block BinaryTreeNode *node9;
             __block BinaryTreeNode *node13;
             __block BinaryTreeNode *node12;
+            __block BinaryTreeNode *node32;
             beforeEach(^{
-                BinaryTreeNode *btRoot = [[BinaryTreeNode alloc] initWithValue:6];
+                btRoot = [[BinaryTreeNode alloc] initWithValue:6];
                 node12 = [[BinaryTreeNode alloc] initWithValue:12];
                 node9 = [[BinaryTreeNode alloc] initWithValue:9];
                 BinaryTreeNode *node30 = [[BinaryTreeNode alloc] initWithValue:30];
                 node13 = [[BinaryTreeNode alloc] initWithValue:13];
-                BinaryTreeNode *node32 = [[BinaryTreeNode alloc] initWithValue:32];
+                node32 = [[BinaryTreeNode alloc] initWithValue:32];
                 BinaryTreeNode *node41 = [[BinaryTreeNode alloc] initWithValue:41];
                 BinaryTreeNode *node10 = [[BinaryTreeNode alloc] initWithValue:10];
 
@@ -51,6 +53,12 @@ SPEC_BEGIN(BinaryTreeAncestorFinderSpec)
                 BinaryTreeNode *ancestor = [tree commonAncestor:node9 and:node13];
 
                 [[ancestor should] equal:node12];
+            });
+
+            it(@"should find common ancestor of 13 and 32 as 6", ^{
+                BinaryTreeNode *ancestor = [tree commonAncestor:node13 and:node32];
+
+                [[ancestor should] equal:btRoot];
             });
 
             it(@"should return nil if one of targets is not in tree", ^{
