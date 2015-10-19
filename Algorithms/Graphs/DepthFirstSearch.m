@@ -8,8 +8,6 @@
 
 #import <ObjectiveSugar/NSMutableArray+ObjectiveSugar.h>
 #import "DepthFirstSearch.h"
-#import "NSMutableArray+QueueHelper.h"
-
 
 @interface DepthFirstSearch ()
 @property(nonatomic) int visitedNodes;
