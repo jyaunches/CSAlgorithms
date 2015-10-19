@@ -9,10 +9,6 @@
 #import "LinkedList.h"
 #import "LinkedNode.h"
 
-@interface LinkedList ()
-@property(nonatomic, strong) LinkedNode *rootNode;
-@end
-
 @implementation LinkedList
 
 - (id)initWithRootNode:(LinkedNode *)node {
@@ -159,36 +155,6 @@
     LinkedNode *tempRoot = self.rootNode;
     self.rootNode = newRoot;
     self.rootNode.next = tempRoot;
-}
-
-- (BOOL)isPalindrome {
-    self.palindromeFirstHalfNode = self.rootNode;
-    LinkedNode *secondHalfNode = self.rootNode;
-    return [self compare:secondHalfNode];
-}
-
-- (BOOL)compare:(LinkedNode *)secondHalfNode {
-    if (secondHalfNode.next != nil) {
-        BOOL result = [self compare:secondHalfNode.next];
-        if (!self.midNodeHit && result)
-            return [self compareToFirstHalfNodeAndMove:secondHalfNode];
-
-        return result;
-    } else {
-        return [self compareToFirstHalfNodeAndMove:secondHalfNode];
-    }
-}
-
-- (BOOL)compareToFirstHalfNodeAndMove:(LinkedNode *)secondHalfNode {
-    if (self.palindromeFirstHalfNode == secondHalfNode) {
-        self.midNodeHit = YES;
-    }
-    if (secondHalfNode.data == self.palindromeFirstHalfNode.data) {
-        self.palindromeFirstHalfNode = self.palindromeFirstHalfNode.next;
-        return YES;
-    } else {
-        return NO;
-    }
 }
 
 - (BOOL)hasLoop {

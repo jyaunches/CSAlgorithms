@@ -21,6 +21,7 @@
 		27EB77D31BD576C800E19C57 /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77CE1BD576C800E19C57 /* GraphNode.m */; };
 		27EB77D41BD576C800E19C57 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77D01BD576C800E19C57 /* BinaryTreeNode.m */; };
 		27EB77D71BD576E700E19C57 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77D51BD576E700E19C57 /* BinaryTree.m */; };
+		27EB77DA1BD5868500E19C57 /* PalindromeDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77D91BD5868500E19C57 /* PalindromeDetection.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -98,6 +99,8 @@
 		27EB77D01BD576C800E19C57 /* BinaryTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTreeNode.m; path = Graphs/Helpers/BinaryTreeNode.m; sourceTree = "<group>"; };
 		27EB77D51BD576E700E19C57 /* BinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BinaryTree.m; path = Graphs/BinaryTree.m; sourceTree = "<group>"; };
 		27EB77D61BD576E700E19C57 /* BinaryTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinaryTree.h; path = Graphs/BinaryTree.h; sourceTree = "<group>"; };
+		27EB77D81BD5868500E19C57 /* PalindromeDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PalindromeDetection.h; path = Lists/Searching/PalindromeDetection.h; sourceTree = "<group>"; };
+		27EB77D91BD5868500E19C57 /* PalindromeDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalindromeDetection.m; path = Lists/Searching/PalindromeDetection.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -430,6 +433,8 @@
 			children = (
 				709DF1AC1BBEC16A007F6ED0 /* BinarySearch.m */,
 				709DF1AD1BBEC16A007F6ED0 /* BinarySearch.h */,
+				27EB77D81BD5868500E19C57 /* PalindromeDetection.h */,
+				27EB77D91BD5868500E19C57 /* PalindromeDetection.m */,
 			);
 			name = Searching;
 			sourceTree = "<group>";
@@ -674,6 +679,7 @@
 				706A1B1E1BB5BC95002C71DE /* MinStackNode.m in Sources */,
 				709DF1BC1BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
+				27EB77DA1BD5868500E19C57 /* PalindromeDetection.m in Sources */,
 				709DF1A51BBEC0BD007F6ED0 /* HanoiTower.m in Sources */,
 				704E3AA91BA9B1D600974504 /* CourseOrderer.m in Sources */,
 				709DF1A61BBEC0BD007F6ED0 /* Tower.m in Sources */,

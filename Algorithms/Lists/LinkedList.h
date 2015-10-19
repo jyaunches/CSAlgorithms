@@ -11,30 +11,16 @@
 @class LinkedNode;
 
 @interface LinkedList : NSObject
-
-@property(nonatomic, strong) LinkedNode *palindromeFirstHalfNode;
-
-@property(nonatomic) BOOL midNodeHit;
+@property(nonatomic, strong) LinkedNode *rootNode;
 
 - (id)initWithRootNode:(LinkedNode *)node;
-
 - (void)appendOnEnd:(LinkedNode *)node;
-
 - (int)size;
-
 - (LinkedNode *)lastNode;
-
 - (void)deleteNodeWithValue:(int)target;
-
 - (void)removeDuplicates;
-
 - (LinkedNode *)findKthFromEnd:(int)distanceFromEnd;
-
 - (LinkedNode *)find:(NSNumber *)number;
-
 - (void)partition:(NSNumber *)target;
-
-- (BOOL)isPalindrome;
-
 - (BOOL)hasLoop;
 @end

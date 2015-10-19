@@ -9,12 +9,18 @@
 #import <Kiwi/Kiwi.h>
 #import "LinkedNode.h"
 #import "LinkedList.h"
+#import "PalindromeDetection.h"
 
 SPEC_BEGIN(PalindromeDetectionSpec)
 
         __block LinkedList *linkedList;
 
         describe(@"palindrome detection", ^{
+            __block PalindromeDetection *palindromeDetection;
+            beforeAll(^{
+                palindromeDetection = [[PalindromeDetection alloc] init];
+            });
+
             it(@"should determine if not Palindrome", ^{
                 LinkedNode *node4 = [[LinkedNode alloc] initWithData:4 withNext:nil];
                 LinkedNode *node1 = [[LinkedNode alloc] initWithData:1 withNext:node4];
@@ -23,7 +29,7 @@ SPEC_BEGIN(PalindromeDetectionSpec)
                 LinkedNode *node5 = [[LinkedNode alloc] initWithData:5 withNext:node2];
 
                 linkedList = [[LinkedList alloc] initWithRootNode:node5];
-                BOOL isPalindrome = [linkedList isPalindrome];
+                BOOL isPalindrome = [palindromeDetection isPalindrome:linkedList];
                 [[@(isPalindrome) should] beFalse];
             });
 
@@ -38,7 +44,7 @@ SPEC_BEGIN(PalindromeDetectionSpec)
 
                 linkedList = [[LinkedList alloc] initWithRootNode:node1];
 
-                BOOL isPalindrome = [linkedList isPalindrome];
+                BOOL isPalindrome = [palindromeDetection isPalindrome:linkedList];
                 [[@(isPalindrome) should] beTrue];
             });
         });
