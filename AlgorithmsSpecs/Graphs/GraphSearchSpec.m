@@ -32,9 +32,9 @@ SPEC_BEGIN(GraphSearchSpec)
                 GraphNode *node11 = [[GraphNode alloc] initWithValue:11];
                 GraphNode *node15 = [[GraphNode alloc] initWithValue:15];
 
-                node3.adjacentEdges = @[node5, node7, node11, node15];
-                node7.adjacentEdges = @[node2, node9];
-                node9.adjacentEdges = @[node8, node3, node15];
+                node3.children = @[node5, node7, node11, node15];
+                node7.children = @[node2, node9];
+                node9.children = @[node8, node3, node15];
 
             });
 
@@ -44,7 +44,7 @@ SPEC_BEGIN(GraphSearchSpec)
                     depthFirstSearch = [[DepthFirstSearch alloc] init];
                 });
 
-                it(@"should have 6 visited nodes to find target node 8 in BFS", ^{
+                it(@"should have 6 visited nodes to find target node 8 in DFS", ^{
                     int visitedNodes = [depthFirstSearch countVisitedNodes:node3 forTarget:8];
                     [[@(visitedNodes) should] equal:@(6)];
                 });

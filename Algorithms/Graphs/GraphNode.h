@@ -9,12 +9,18 @@
 #import <Foundation/Foundation.h>
 
 @interface GraphNode : NSObject
+- (id)initWithValue:(int)value;
+
 @property(nonatomic) int value;
-@property(nonatomic, strong) NSArray *adjacentEdges;
+
+- (void)addEdges:(NSArray *)children;
+
+@property(nonatomic, strong) NSMutableArray *children;
+
+- (void)removeIncoming:(GraphNode *)node;
 
 @property(nonatomic) BOOL visited;
 
 @property(nonatomic) int distanceFromRoot;
-
-- (id)initWithValue:(int)value;
+@property(nonatomic, strong) NSMutableArray *incoming;
 @end

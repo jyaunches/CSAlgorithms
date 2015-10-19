@@ -12,30 +12,35 @@
 #import "NSMutableArray+QueueHelper.h"
 
 // A directed graph is a graph in which:
-//     * a given node and have 0 - ~ children
-//     * it can contain loops
-//     * not all nodes have to have a route to all other nodes
+//   * a given node can have 0 - ~ children
+//   * it can contain loops
+//   * not all nodes have to have a route to all other nodes
 @implementation DirectedGraph
 
-// As a given node can have many children, a BFS makes the most sense
+// Because a given node can have many children, a BFS makes the most sense
 // as the targets could be quite near each other.
-+ (BOOL)routeExistsFrom:(GraphNode *)node1 to:(GraphNode *)node2 {
-    if(!node1 || !node2)
+
+// Asymptotic Analysis:
+// Best case: O(1) <- we find our target at the root
+// Worse case: O(E) <- Where E is the number of edges and we find our target on the last edge searched
+
++ (BOOL)routeExistsFrom:(GraphNode *)origin to:(GraphNode *)destination {
+    if(!origin || !destination)
         return NO;
 
-    if(node1 == node2)
+    if(origin == destination)
         return YES;
 
-    NSMutableArray *queue = [@[node1] mutableCopy];
+    NSMutableArray *queue = [@[origin] mutableCopy];
 
     while(queue.count > 0){
         GraphNode *current = queue.pop;
         if(!current.visited){
             current.visited = YES;
-            if(current == node2){
+            if(current == destination){
                 return YES;
             }
-            [queue pushObjects:current.adjacentEdges];
+            [queue pushObjects:current.children];
         }
     }
     return NO;

@@ -34,7 +34,7 @@
             if([self visit:nextNode]){
                 return self.visitedNodes;
             }else{
-                [searchQueue pushObjects:nextNode.adjacentEdges];
+                [searchQueue pushObjects:nextNode.children];
             }
         }
     }
@@ -63,10 +63,10 @@
             if([self visit:nextNode]){
                 return nextNode.distanceFromRoot;
             }else{
-                [(nextNode.adjacentEdges) each:^(GraphNode *adjacentNode) {
+                [(nextNode.children) each:^(GraphNode *adjacentNode) {
                     adjacentNode.distanceFromRoot = nextNode.distanceFromRoot + 1;
                 }];
-                [searchQueue pushObjects:nextNode.adjacentEdges];
+                [searchQueue pushObjects:nextNode.children];
             }
         }
     }

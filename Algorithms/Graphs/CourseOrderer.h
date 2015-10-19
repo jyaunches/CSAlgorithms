@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GraphSort : NSObject
+@class GraphNode;
 
-- (NSArray *)topologicalSort:(NSArray *)edges;
+@interface CourseOrderer : NSObject
+- (NSArray *)sortCourses:(NSArray *)nodes;
 @end

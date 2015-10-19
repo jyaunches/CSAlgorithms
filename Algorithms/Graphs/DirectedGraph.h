@@ -11,5 +11,5 @@
 
 @interface DirectedGraph : NSObject
 
-+ (BOOL)routeExistsFrom:(GraphNode *)node1 to:(GraphNode *)node2;
++ (BOOL)routeExistsFrom:(GraphNode *)origin to:(GraphNode *)destination;
 @end

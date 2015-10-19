@@ -16,6 +16,14 @@
 @property(nonatomic) int target;
 @end
 
+// Notes:
+// - graph can be binary or non-binary
+// - graph can be is directed or undirected (visited flag takes care of redundant checks)
+
+// Asymptotic Analysis:
+// Best case: O(1) <- we find our target at the root
+// Worse case: O(E) <- Where E is the number of edges and we find our target on the last edge searched
+
 @implementation DepthFirstSearch
 
 - (int)countVisitedNodes:(GraphNode *)root forTarget:(int)target {
@@ -33,7 +41,7 @@
             if([self visit:nextNode]){
                 return self.visitedNodes;
             }else{
-                [searchStack addObjectsFromArray:nextNode.adjacentEdges];
+                [searchStack addObjectsFromArray:nextNode.children];
             }
         }
     }

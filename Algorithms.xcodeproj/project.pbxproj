@@ -27,8 +27,7 @@
 		7005809A1BA65E85008B0797 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 700580981BA65E85008B0797 /* LaunchScreen.xib */; };
 		704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A961BA9B1CE00974504 /* NSMutableArray+QueueHelper.m */; };
 		704E3A9B1BA9B1CE00974504 /* NSArray+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A991BA9B1CE00974504 /* NSArray+Helpers.m */; };
-		704E3AA91BA9B1D600974504 /* GraphSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A9E1BA9B1D600974504 /* GraphSort.m */; };
-		704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A9F1BA9B1D600974504 /* GraphEdge.m */; };
+		704E3AA91BA9B1D600974504 /* CourseOrderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A9E1BA9B1D600974504 /* CourseOrderer.m */; };
 		704E3AAB1BA9B1D600974504 /* BreadthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AA21BA9B1D600974504 /* BreadthFirstSearch.m */; };
 		704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AA31BA9B1D600974504 /* DepthFirstSearch.m */; };
 		704E3AAD1BA9B1D600974504 /* GraphNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AA71BA9B1D600974504 /* GraphNode.m */; };
@@ -56,7 +55,7 @@
 		709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1C41BBEC300007F6ED0 /* ListSortSpec.m */; };
 		709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */; };
 		709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */; };
-		709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */; };
+		709DF1CF1BBEC327007F6ED0 /* CourseOrdererSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CB1BBEC327007F6ED0 /* CourseOrdererSpec.m */; };
 		709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */; };
 		70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */; };
 		70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */; };
@@ -113,10 +112,8 @@
 		704E3A971BA9B1CE00974504 /* NSMutableArray+QueueHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueHelper.h"; path = "Helpers/NSMutableArray+QueueHelper.h"; sourceTree = "<group>"; };
 		704E3A981BA9B1CE00974504 /* NSArray+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Helpers.h"; path = "Helpers/NSArray+Helpers.h"; sourceTree = "<group>"; };
 		704E3A991BA9B1CE00974504 /* NSArray+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Helpers.m"; path = "Helpers/NSArray+Helpers.m"; sourceTree = "<group>"; };
-		704E3A9E1BA9B1D600974504 /* GraphSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSort.m; path = Graphs/GraphSort.m; sourceTree = "<group>"; };
-		704E3A9F1BA9B1D600974504 /* GraphEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphEdge.m; path = Graphs/GraphEdge.m; sourceTree = "<group>"; };
-		704E3AA01BA9B1D600974504 /* GraphEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphEdge.h; path = Graphs/GraphEdge.h; sourceTree = "<group>"; };
-		704E3AA11BA9B1D600974504 /* GraphSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphSort.h; path = Graphs/GraphSort.h; sourceTree = "<group>"; };
+		704E3A9E1BA9B1D600974504 /* CourseOrderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseOrderer.m; path = Graphs/CourseOrderer.m; sourceTree = "<group>"; };
+		704E3AA11BA9B1D600974504 /* CourseOrderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseOrderer.h; path = Graphs/CourseOrderer.h; sourceTree = "<group>"; };
 		704E3AA21BA9B1D600974504 /* BreadthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BreadthFirstSearch.m; path = Graphs/BreadthFirstSearch.m; sourceTree = "<group>"; };
 		704E3AA31BA9B1D600974504 /* DepthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepthFirstSearch.m; path = Graphs/DepthFirstSearch.m; sourceTree = "<group>"; };
 		704E3AA41BA9B1D600974504 /* DepthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepthFirstSearch.h; path = Graphs/DepthFirstSearch.h; sourceTree = "<group>"; };
@@ -164,7 +161,7 @@
 		709DF1C41BBEC300007F6ED0 /* ListSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListSortSpec.m; path = Lists/ListSortSpec.m; sourceTree = "<group>"; };
 		709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalindromeDetectionSpec.m; path = Lists/PalindromeDetectionSpec.m; sourceTree = "<group>"; };
 		709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetectConnectedComponentsSpec.m; path = Graphs/DetectConnectedComponentsSpec.m; sourceTree = "<group>"; };
-		709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopologicalSortSpec.m; path = Graphs/TopologicalSortSpec.m; sourceTree = "<group>"; };
+		709DF1CB1BBEC327007F6ED0 /* CourseOrdererSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseOrdererSpec.m; path = Graphs/CourseOrdererSpec.m; sourceTree = "<group>"; };
 		709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSearchSpec.m; path = Graphs/GraphSearchSpec.m; sourceTree = "<group>"; };
 		70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicProgSpecs.m; path = DynamicProgramming/DynamicProgSpecs.m; sourceTree = "<group>"; };
 		70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadNeighborsSpec.m; path = DynamicProgramming/BadNeighborsSpec.m; sourceTree = "<group>"; };
@@ -314,10 +311,8 @@
 			children = (
 				273EAE211BC6B3C3003A873D /* BinaryTreeAncestorFinder.h */,
 				273EAE221BC6B3C3003A873D /* BinaryTreeAncestorFinder.m */,
-				704E3A9E1BA9B1D600974504 /* GraphSort.m */,
-				704E3A9F1BA9B1D600974504 /* GraphEdge.m */,
-				704E3AA01BA9B1D600974504 /* GraphEdge.h */,
-				704E3AA11BA9B1D600974504 /* GraphSort.h */,
+				704E3A9E1BA9B1D600974504 /* CourseOrderer.m */,
+				704E3AA11BA9B1D600974504 /* CourseOrderer.h */,
 				704E3AA61BA9B1D600974504 /* BreadthFirstSearch.h */,
 				704E3AA21BA9B1D600974504 /* BreadthFirstSearch.m */,
 				704E3AA31BA9B1D600974504 /* DepthFirstSearch.m */,
@@ -432,7 +427,7 @@
 				273EAE1D1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m */,
 				273EAE1E1BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m */,
 				709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */,
-				709DF1CB1BBEC327007F6ED0 /* TopologicalSortSpec.m */,
+				709DF1CB1BBEC327007F6ED0 /* CourseOrdererSpec.m */,
 				709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */,
 				27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */,
 				27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */,
@@ -662,12 +657,11 @@
 				273EAE231BC6B3C3003A873D /* BinaryTreeAncestorFinder.m in Sources */,
 				709DF1B91BBEC175007F6ED0 /* BubbleSort.m in Sources */,
 				706A1B1D1BB5BC95002C71DE /* Stack.m in Sources */,
-				704E3AAA1BA9B1D600974504 /* GraphEdge.m in Sources */,
 				706A1B1E1BB5BC95002C71DE /* MinStackNode.m in Sources */,
 				709DF1BC1BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
 				709DF1A51BBEC0BD007F6ED0 /* HanoiTower.m in Sources */,
-				704E3AA91BA9B1D600974504 /* GraphSort.m in Sources */,
+				704E3AA91BA9B1D600974504 /* CourseOrderer.m in Sources */,
 				709DF1A61BBEC0BD007F6ED0 /* Tower.m in Sources */,
 				704E3A9B1BA9B1CE00974504 /* NSArray+Helpers.m in Sources */,
 				700580921BA65E85008B0797 /* ViewController.m in Sources */,
@@ -702,7 +696,7 @@
 				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
 				27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */,
 				70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */,
-				709DF1CF1BBEC327007F6ED0 /* TopologicalSortSpec.m in Sources */,
+				709DF1CF1BBEC327007F6ED0 /* CourseOrdererSpec.m in Sources */,
 				273EAE1F1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m in Sources */,
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
 				709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */,
