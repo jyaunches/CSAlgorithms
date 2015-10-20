@@ -32,9 +32,9 @@ SPEC_BEGIN(GraphSearchSpec)
                 GraphNode *node11 = [[GraphNode alloc] initWithValue:11];
                 GraphNode *node15 = [[GraphNode alloc] initWithValue:15];
 
-                node3.children = @[node5, node7, node11, node15];
-                node7.children = @[node2, node9];
-                node9.children = @[node8, node3, node15];
+                node3.children = [@[node5, node7, node11, node15] mutableCopy];
+                node7.children = [@[node2, node9] mutableCopy];
+                node9.children = [@[node8, node3, node15] mutableCopy];
 
             });
 
@@ -86,12 +86,6 @@ SPEC_BEGIN(GraphSearchSpec)
                     int visitedNodes = [breadthFirstSearch countVisitedNodes:node3 forTarget:11];
                     [[@(visitedNodes) should] equal:@(3)];
                 });
-
-                it(@"should calculate distance between two nodes", ^{
-                    int distance = [breadthFirstSearch calculateDistanceFrom:node3 forTarget:8];
-                    [[@(distance) should] equal:@(3)];
-                });
-
             });
 
         });

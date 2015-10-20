@@ -10,17 +10,13 @@
 
 @interface GraphNode : NSObject
 - (id)initWithValue:(int)value;
-
-@property(nonatomic) int value;
-
 - (void)addEdges:(NSArray *)children;
-
-@property(nonatomic, strong) NSMutableArray *children;
-
 - (void)removeIncoming:(GraphNode *)node;
 
+@property(nonatomic) int value;
+@property(nonatomic, strong) NSMutableArray *children;
 @property(nonatomic) BOOL visited;
-
-@property(nonatomic) int distanceFromRoot;
+@property(nonatomic) int distanceFromOrigin;
 @property(nonatomic, strong) NSMutableArray *incoming;
+
 @end

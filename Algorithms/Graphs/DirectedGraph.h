@@ -12,4 +12,5 @@
 @interface DirectedGraph : NSObject
 
 + (BOOL)routeExistsFrom:(GraphNode *)origin to:(GraphNode *)destination;
++ (NSNumber *)shortestPathFrom:(GraphNode *)origin to:(GraphNode *)destination;
 @end

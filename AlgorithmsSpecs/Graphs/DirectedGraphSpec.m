@@ -37,9 +37,9 @@ SPEC_BEGIN(DirectedGraphSpec)
                     GraphNode *node11 = [[GraphNode alloc] initWithValue:11];
                     GraphNode *node15 = [[GraphNode alloc] initWithValue:15];
 
-                    node3.children = @[node5, node7, node11, node15];
-                    node7.children = @[node2, node9];
-                    node9.children = @[node8, node3, node15];
+                    node3.children = [@[node5, node7, node11, node15] mutableCopy];
+                    node7.children = [@[node2, node9] mutableCopy];
+                    node9.children = [@[node8, node3, node15] mutableCopy];
                 });
 
                 it(@"should determine if there is route between two nodes", ^{
@@ -61,12 +61,6 @@ SPEC_BEGIN(DirectedGraphSpec)
                     BOOL routeExists = [DirectedGraph routeExistsFrom:nil to:node5];
                     [[@(routeExists) should] beFalse];
                 });
-            });
-
-
-
-            describe(@"Shortest route determination", ^{
-
             });
 
         });

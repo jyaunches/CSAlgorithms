@@ -6,7 +6,5 @@
 
 + (NSNumber *)findLengthOfNonDecreasingSequence:(NSArray *)sequence;
 
-+ (NSNumber *)shortestPathFrom:(NSNumber *)start to:(NSNumber *)finish inGraphWithEdges:(NSArray *)edges;
-
 + (NSNumber *)findZigZagLength:(NSMutableArray *)inputSequence;
 @end

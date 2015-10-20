@@ -32,20 +32,6 @@ SPEC_BEGIN(DynamicProgrammingSpec)
                 [[length should] equal:@(4)];
             });
 
-            it(@"should find shortest path in undirected graph", ^{
-                NSArray *edges = @[
-                        @[@(7), @(5)],
-                        @[@(7), @(4)],
-                        @[@(4), @(11)],
-                        @[@(11), @(3)],
-                        @[@(7), @(1)],
-                        @[@(1), @(3)],
-                ];
-
-                NSNumber *shortestPath = [DynamicProg shortestPathFrom:@(1) to:@(11) inGraphWithEdges:edges];
-                [[shortestPath should] equal:@(2)];
-            });
-
             describe(@"zigzag", ^{
                 it(@"case 1", ^{
                     NSArray *originalSequence = @[@(1), @(17), @(5), @(10), @(13), @(15), @(10), @(5), @(16), @(8)];

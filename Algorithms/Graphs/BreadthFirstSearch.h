@@ -13,5 +13,4 @@
 @interface BreadthFirstSearch : NSObject
 - (int)countVisitedNodes:(GraphNode *)root forTarget:(int)target;
 
-- (int)calculateDistanceFrom:(GraphNode *)node forTarget:(int)target;
 @end

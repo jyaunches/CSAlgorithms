@@ -23,6 +23,9 @@
 // Algorithm: given a sorted array, and a target to search for, begin with inspecting the middle element.
 // If target is higher, repeat search in the top half of the input array. Repeat until target found.
 
+// Analysis:
+// Time: O(log n) - inspection size reduces by 1/2 each time
+
 + (int)search:(NSArray *)array forItem:(NSNumber *)target {
     NSUInteger highBoundary = array.count;
     NSUInteger lowBoundary = 0;

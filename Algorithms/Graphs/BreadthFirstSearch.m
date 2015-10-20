@@ -48,29 +48,4 @@
     return node.value == self.target;
 }
 
-- (int)calculateDistanceFrom:(GraphNode *)root forTarget:(int)target {
-    if(!root)
-        return 0;
-
-    self.target = target;
-
-    root.distanceFromRoot = 0;
-    NSMutableArray *searchQueue = [@[root] mutableCopy];
-
-    while(searchQueue.count > 0){
-        GraphNode *nextNode = [searchQueue pop];
-        if(!nextNode.visited){
-            if([self visit:nextNode]){
-                return nextNode.distanceFromRoot;
-            }else{
-                [(nextNode.children) each:^(GraphNode *adjacentNode) {
-                    adjacentNode.distanceFromRoot = nextNode.distanceFromRoot + 1;
-                }];
-                [searchQueue pushObjects:nextNode.children];
-            }
-        }
-    }
-
-    return self.visitedNodes;
-}
 @end

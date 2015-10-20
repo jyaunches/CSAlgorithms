@@ -8,7 +8,6 @@
 
 #import <ObjectiveSugar/ObjectiveSugar.h>
 #import "DirectedGraph.h"
-#import "GraphNode.h"
 #import "NSMutableArray+QueueHelper.h"
 
 // A directed graph is a graph in which:
@@ -45,4 +44,47 @@
     }
     return NO;
 }
+
+// 1. Give node’s a distance property, set it to 0 for start node.
+// 2. Use visited flag and start all nodes as unvisited
+// 3. BFS visiting first start node then it’s children, incrementing distance and marking as visited.
+// 4. Stop when destination found
+
+// My searching closest nodes first, we can ensure that if we run into the same node later, it will not be closer
+// to the origin and thus doesn't need to be visited again.
+
+// Analysis:
+// Worst case:
+// time O(n) - may need to visit all nodes to find the destination
+// space O(n) - may need to hold all the nodes in the queue
+
++ (NSNumber *)shortestPathFrom:(GraphNode *)origin to:(GraphNode *)destination {
+    origin.distanceFromOrigin = 0;
+    NSMutableArray *queue = [@[origin] mutableCopy];
+
+    if(queue.count == 0){
+        return nil; //or throw error
+    }
+    if(destination == nil){
+        return nil; //or throw error
+    }
+
+    while(queue.count > 0){
+        GraphNode *nextEval = [queue pop];
+        if(nextEval != nil && !nextEval.visited){
+            nextEval.visited = YES;
+            if(nextEval == destination){
+                return @(nextEval.distanceFromOrigin);
+            }else{
+                [nextEval.children each:^(GraphNode *child) {
+                    child.distanceFromOrigin = nextEval.distanceFromOrigin+1;
+                }];
+                [queue pushObjects:nextEval.children];
+            }
+        }
+    }
+
+    return nil; //destination not found
+}
+
 @end

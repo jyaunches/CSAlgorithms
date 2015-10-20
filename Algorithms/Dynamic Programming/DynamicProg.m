@@ -55,59 +55,6 @@
     return @(knownMaxLength);
 }
 
-// Problem, given an undirected graph, find the shortest path between two nodes.
-// Example input:
-// start: 1, finish:11, edges: [[7, 5], [7, 4], [4, 11], [11, 3], [7, 1], [1, 3]]
-//
-// Expected result: 2
-
-+ (NSNumber *)shortestPathFrom:(NSNumber *)start to:(NSNumber *)finish inGraphWithEdges:(NSArray *)edges {
-
-    NSMutableDictionary *visitedNodes = [NSMutableDictionary dictionary];
-
-    //find origin edge
-    NSArray *originEdge = [edges find:^BOOL(NSArray *edge) {
-        return [edge[0] isEqualToNumber:start] || [edge[1] isEqualToNumber:start];
-    }];
-
-    //mark origin node and neighbor node as visited w/ distance from origin
-    NSNumber *originEdge1 = originEdge[0];
-    NSNumber *originEdge2 = originEdge[1];
-
-    if ([originEdge1 isEqualToNumber:start]) {
-        visitedNodes[originEdge1] = @(0);
-        visitedNodes[originEdge2] = @(1);
-    } else if ([originEdge2 isEqualToNumber:start]) {
-        visitedNodes[originEdge1] = @(1);
-        visitedNodes[originEdge2] = @(0);
-    }
-
-    //Remove origin edge from edges remaining to search
-    NSMutableArray *remainingEdges = [edges mutableCopy];
-    [remainingEdges removeObject:originEdge];
-
-    while (remainingEdges.count > 0) {
-        //visit edges that contain an already visited node only.. so distance from origin can be calculated
-        [remainingEdges each:^(NSArray *edge) {
-            NSNumber *edge1 = edge[0];
-            NSNumber *edge2 = edge[1];
-            if ([visitedNodes hasKey:edge1] && ![visitedNodes hasKey:edge2]) {
-                NSNumber *knownNode = visitedNodes[edge1];
-                visitedNodes[edge2] = @(knownNode.intValue + 1);
-                [remainingEdges removeObject:edge];
-            } else if ([visitedNodes hasKey:edge2] && ![visitedNodes hasKey:edge1]) {
-                NSNumber *knownNode = visitedNodes[edge2];
-                visitedNodes[edge1] = @(knownNode.intValue + 1);
-                [remainingEdges removeObject:edge];
-            } else {
-                [remainingEdges removeObject:edge];
-            }
-        }];
-    }
-
-    return visitedNodes[finish];
-}
-
 // Problem: A sequence of numbers is called a zig-zag sequence if the differences between successive numbers strictly
 // alternate between positive and negative. The first difference (if one exists) may be either positive or negative.
 // A sequence with fewer than two elements is trivially a zig-zag sequence.
