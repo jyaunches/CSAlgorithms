@@ -25,7 +25,7 @@
 // merge sort or quick sort.
 // * Stable
 // * O(1) extra space
-// * O(n2) comparisons and swaps
+// * O(n^2) comparisons and swaps
 // * Adaptive: O(n) when nearly sorted
 
 @implementation NSMutableArray (InsertionSort)

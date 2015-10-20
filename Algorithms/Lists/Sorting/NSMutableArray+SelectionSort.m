@@ -13,17 +13,16 @@
 // item from n - 1. Where n is the length of the list. With each iteration,
 // take the lowest found item and insert it at the index of n - 1.
 //
-// Analysis: From the comparions presented here, one might conclude that selection
-// sort should never be used. It does not adapt to the data in any way (notice
-// that the four animations above run in lock step), so its runtime is always quadratic.
+// Analysis: From the comparisons presented here, one might conclude that selection
+// sort should never be used. It does not adapt to the data in any way, so its runtime is always quadratic.
 //
-// However, selection sort has the property of minimizing the number of swaps.
+// However, it does have the property of minimizing the number of swaps.
 // In applications where the cost of swapping items is high, selection sort very well
 // may be the algorithm of choice.
 //
 // * Not Stable
 // * O(1) extra space
-// * O(n2) comparisons
+// * O(n^2) comparisons
 // * O(n) swaps
 // * Not adaptive
 
