@@ -13,6 +13,21 @@
 
 @implementation MergeSort
 
+// Algorithm:
+// Given a list/array that is unsorted
+// Recursively divide the list into halves until you have arrays with one item.
+// On return from recursive division, merge the 2 arrays based on the first item in each array.
+// Merging is also recursive as when you merge 2 arrays with more than one item, merge is called
+// recursively to merge the remaining items in each array.
+
+// Recursion to sort & recursion to merge. Double RECURSION. OMG. Lol.
+// Merge doesn't necessary need to be done recursively
+
+// Analysis:
+// Best & Worst: O(n log n).
+// log n for dividing the array into smaller arrays.. each time by 1/2
+// n for the merging.. every item needs to be reviewed as merge occurs
+
 + (NSMutableArray *)sort:(NSMutableArray *)array {
     if (array.count == 1) {
         return array;

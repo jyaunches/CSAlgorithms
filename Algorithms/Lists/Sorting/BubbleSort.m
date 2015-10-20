@@ -11,16 +11,19 @@
 
 @implementation BubbleSort
 
-//Strategy: Repeatedly steps through the list to be sorted, compare
-//each pair of adjacent items and swap them if they are in the wrong order.
+// Strategy: Repeatedly steps through the list to be sorted, compare
+// each pair of adjacent items and swap them if they are in the wrong order.
 
-//Analysis: Bubble sort has many of the same properties as insertion sort,
-//but has slightly higher overhead. In the case of nearly sorted data,
-//bubble sort takes O(n) time, but requires at least 2 passes through
-//the data (whereas insertion sort requires something more like 1 pass).
+// Analysis: Bubble sort has many of the same properties as insertion sort,
+// but has slightly higher overhead. In the case of nearly sorted data,
+// bubble sort takes O(n) time, but requires at least 2 passes through
+// the data (whereas insertion sort requires something more like 1 pass).
+
+// Analysis:
 // * Stable
-// * O(1) extra space
-// * O(n2) comparisons and swaps
+// * Worst O(n^2) comparisons and swaps
+//          Consider: 6, 2, 3, 4, 5
+//          It will take 5 passes and 5 comparisons/pass to move 6 to the end
 // * Adaptive: O(n) when nearly sorted
 
 + (NSArray *)sort:(NSMutableArray *)array {
