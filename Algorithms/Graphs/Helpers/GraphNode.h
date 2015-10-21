@@ -12,6 +12,7 @@
 - (id)initWithValue:(int)value;
 - (void)addEdges:(NSArray *)children;
 - (void)removeIncoming:(GraphNode *)node;
+- (void)addChild:(GraphNode *)node withEdgeWeight:(int)weight;
 
 @property(nonatomic) int value;
 @property(nonatomic, strong) NSMutableArray *children;
@@ -19,4 +20,5 @@
 @property(nonatomic) int distanceFromOrigin;
 @property(nonatomic, strong) NSMutableArray *incoming;
 
+@property(nonatomic) int weightFromOrigin;
 @end

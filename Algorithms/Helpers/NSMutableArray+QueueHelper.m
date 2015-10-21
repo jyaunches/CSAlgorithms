@@ -24,4 +24,11 @@
     }
     return [[self subarrayWithRange:NSMakeRange(startIndex, endIndex - startIndex)] mutableCopy];
 }
+
+- (void)moveObjectToFront:(id)item {
+    if([self containsObject:item]){
+        [self removeObject:item];
+        [self insertObject:item atIndex:0];
+    }
+}
 @end

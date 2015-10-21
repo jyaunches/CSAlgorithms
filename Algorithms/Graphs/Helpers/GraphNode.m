@@ -9,6 +9,7 @@
 #import <ObjectiveSugar/NSArray+ObjectiveSugar.h>
 #import <ObjectiveSugar/NSMutableArray+ObjectiveSugar.h>
 #import "GraphNode.h"
+#import "WeightedChildNode.h"
 
 @interface GraphNode ()
 @end
@@ -17,6 +18,7 @@
 
 - (id)initWithValue:(int)value {
     self = [super init];
+    self.weightFromOrigin = INT_MAX;
     self.value = value;
     self.incoming = [@[] mutableCopy];
     self.children = [@[] mutableCopy];
@@ -33,5 +35,11 @@
 - (void)removeIncoming:(GraphNode *)node {
     [self.incoming removeObject:node];
 }
+
+- (void)addChild:(GraphNode *)node withEdgeWeight:(int)weight {
+    WeightedChildNode *weightedNode = [[WeightedChildNode alloc] initWithNode:node andWeight:weight];
+    [self.children addObject:weightedNode];
+}
+
 
 @end

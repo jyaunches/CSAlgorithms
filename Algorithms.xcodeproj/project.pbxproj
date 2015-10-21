@@ -62,6 +62,9 @@
 		709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */; };
 		70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */; };
 		70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */; };
+		70FF033D1BD7CE16007AEE01 /* WeightedChildNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF033C1BD7CE16007AEE01 /* WeightedChildNode.m */; };
+		70FF033F1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF033E1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m */; };
+		70FF03421BD7D57B007AEE01 /* DijkstraGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03411BD7D57B007AEE01 /* DijkstraGraph.m */; };
 		FBB3952C1B3BA8141A0A2F20 /* Pods_AlgorithmsSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FF38D1B6B14C02FA87BCE5DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C493E0600F804B6D26EE1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -173,6 +176,11 @@
 		709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSearchSpec.m; path = Graphs/GraphSearchSpec.m; sourceTree = "<group>"; };
 		70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicProgSpecs.m; path = DynamicProgramming/DynamicProgSpecs.m; sourceTree = "<group>"; };
 		70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadNeighborsSpec.m; path = DynamicProgramming/BadNeighborsSpec.m; sourceTree = "<group>"; };
+		70FF033B1BD7CE16007AEE01 /* WeightedChildNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightedChildNode.h; path = Graphs/Helpers/WeightedChildNode.h; sourceTree = "<group>"; };
+		70FF033C1BD7CE16007AEE01 /* WeightedChildNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightedChildNode.m; path = Graphs/Helpers/WeightedChildNode.m; sourceTree = "<group>"; };
+		70FF033E1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DijkstraShortestPathSpec.m; path = Graphs/DijkstraShortestPathSpec.m; sourceTree = "<group>"; };
+		70FF03401BD7D57B007AEE01 /* DijkstraGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DijkstraGraph.h; path = Graphs/DijkstraGraph.h; sourceTree = "<group>"; };
+		70FF03411BD7D57B007AEE01 /* DijkstraGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DijkstraGraph.m; path = Graphs/DijkstraGraph.m; sourceTree = "<group>"; };
 		AAE63D07517EB83147E4928E /* Pods-AlgorithmsSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsSpecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsSpecs/Pods-AlgorithmsSpecs.release.xcconfig"; sourceTree = "<group>"; };
 		AC0F7D8A97973DB490AD5D35 /* Pods-AlgorithmsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsTests/Pods-AlgorithmsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsSpecs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,6 +247,8 @@
 				27EB77CE1BD576C800E19C57 /* GraphNode.m */,
 				27EB77CF1BD576C800E19C57 /* BinaryTreeNode.h */,
 				27EB77D01BD576C800E19C57 /* BinaryTreeNode.m */,
+				70FF033B1BD7CE16007AEE01 /* WeightedChildNode.h */,
+				70FF033C1BD7CE16007AEE01 /* WeightedChildNode.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -345,6 +355,8 @@
 				27B4CE611BC3195E00E23CCD /* DirectedGraph.m */,
 				27B4CE6A1BC43EA000E23CCD /* BinaryTreePathValueFinder.h */,
 				27B4CE6B1BC43EA000E23CCD /* BinaryTreePathValueFinder.m */,
+				70FF03401BD7D57B007AEE01 /* DijkstraGraph.h */,
+				70FF03411BD7D57B007AEE01 /* DijkstraGraph.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -452,6 +464,7 @@
 				27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */,
 				27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */,
 				27EB77DB1BD6F62700E19C57 /* ShortestPathSpec.m */,
+				70FF033E1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -696,7 +709,9 @@
 				704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
 				709DF1BA1BBEC175007F6ED0 /* NSMutableArray+HeapSort.m in Sources */,
+				70FF03421BD7D57B007AEE01 /* DijkstraGraph.m in Sources */,
 				706A1B251BB5BCCA002C71DE /* NSNumber+Helpers.m in Sources */,
+				70FF033D1BD7CE16007AEE01 /* WeightedChildNode.m in Sources */,
 				27EB77D71BD576E700E19C57 /* BinaryTree.m in Sources */,
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
 				709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */,
@@ -719,6 +734,7 @@
 				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
 				27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */,
 				70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */,
+				70FF033F1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m in Sources */,
 				709DF1CF1BBEC327007F6ED0 /* CourseOrdererSpec.m in Sources */,
 				273EAE1F1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m in Sources */,
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
