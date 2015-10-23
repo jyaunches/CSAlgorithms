@@ -23,6 +23,8 @@
 		27EB77D71BD576E700E19C57 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77D51BD576E700E19C57 /* BinaryTree.m */; };
 		27EB77DA1BD5868500E19C57 /* PalindromeDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77D91BD5868500E19C57 /* PalindromeDetection.m */; };
 		27EB77DC1BD6F62700E19C57 /* ShortestPathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77DB1BD6F62700E19C57 /* ShortestPathSpec.m */; };
+		27EB77DE1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77DD1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m */; };
+		27EB77E11BDA849400E19C57 /* EquilibriumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -103,6 +105,9 @@
 		27EB77D81BD5868500E19C57 /* PalindromeDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PalindromeDetection.h; path = Lists/Searching/PalindromeDetection.h; sourceTree = "<group>"; };
 		27EB77D91BD5868500E19C57 /* PalindromeDetection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PalindromeDetection.m; path = Lists/Searching/PalindromeDetection.m; sourceTree = "<group>"; };
 		27EB77DB1BD6F62700E19C57 /* ShortestPathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShortestPathSpec.m; path = Graphs/ShortestPathSpec.m; sourceTree = "<group>"; };
+		27EB77DD1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquilibriumCalculatorSpec.m; path = Lists/EquilibriumCalculatorSpec.m; sourceTree = "<group>"; };
+		27EB77DF1BDA849400E19C57 /* EquilibriumCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EquilibriumCalculator.h; path = Lists/EquilibriumCalculator.h; sourceTree = "<group>"; };
+		27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquilibriumCalculator.m; path = Lists/EquilibriumCalculator.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -371,6 +376,8 @@
 				709DF1A81BBEC14D007F6ED0 /* LinkedNode.m */,
 				704E3ABD1BA9B7D000974504 /* LinkedList.h */,
 				704E3ABE1BA9B7D000974504 /* LinkedList.m */,
+				27EB77DF1BDA849400E19C57 /* EquilibriumCalculator.h */,
+				27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */,
 			);
 			name = Lists;
 			sourceTree = "<group>";
@@ -383,6 +390,7 @@
 				709DF1C31BBEC300007F6ED0 /* LinkedListLoopSpec.m */,
 				709DF1C41BBEC300007F6ED0 /* ListSortSpec.m */,
 				709DF1C51BBEC300007F6ED0 /* PalindromeDetectionSpec.m */,
+				27EB77DD1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m */,
 			);
 			name = Lists;
 			sourceTree = "<group>";
@@ -682,6 +690,7 @@
 				706A1B1E1BB5BC95002C71DE /* MinStackNode.m in Sources */,
 				709DF1BC1BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m in Sources */,
 				704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */,
+				27EB77E11BDA849400E19C57 /* EquilibriumCalculator.m in Sources */,
 				27EB77DA1BD5868500E19C57 /* PalindromeDetection.m in Sources */,
 				709DF1A51BBEC0BD007F6ED0 /* HanoiTower.m in Sources */,
 				704E3AA91BA9B1D600974504 /* CourseOrderer.m in Sources */,
@@ -724,6 +733,7 @@
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
 				709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */,
 				709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */,
+				27EB77DE1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m in Sources */,
 				27EB77DC1BD6F62700E19C57 /* ShortestPathSpec.m in Sources */,
 				273EAE271BCC10BC003A873D /* PrimeNumbersSpec.m in Sources */,
 				709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */,
