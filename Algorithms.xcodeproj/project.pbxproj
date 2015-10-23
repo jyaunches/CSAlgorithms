@@ -25,6 +25,8 @@
 		27EB77DC1BD6F62700E19C57 /* ShortestPathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77DB1BD6F62700E19C57 /* ShortestPathSpec.m */; };
 		27EB77DE1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77DD1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m */; };
 		27EB77E11BDA849400E19C57 /* EquilibriumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */; };
+		27EB77E41BDAD0A700E19C57 /* MidIndexFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E31BDAD0A700E19C57 /* MidIndexFinder.m */; };
+		27EB77E61BDAD0C100E19C57 /* ToptalExerciseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E51BDAD0C100E19C57 /* ToptalExerciseSpec.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -108,6 +110,9 @@
 		27EB77DD1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquilibriumCalculatorSpec.m; path = Lists/EquilibriumCalculatorSpec.m; sourceTree = "<group>"; };
 		27EB77DF1BDA849400E19C57 /* EquilibriumCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EquilibriumCalculator.h; path = Lists/EquilibriumCalculator.h; sourceTree = "<group>"; };
 		27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquilibriumCalculator.m; path = Lists/EquilibriumCalculator.m; sourceTree = "<group>"; };
+		27EB77E21BDAD0A700E19C57 /* MidIndexFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidIndexFinder.h; sourceTree = "<group>"; };
+		27EB77E31BDAD0A700E19C57 /* MidIndexFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidIndexFinder.m; sourceTree = "<group>"; };
+		27EB77E51BDAD0C100E19C57 /* ToptalExerciseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToptalExerciseSpec.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,6 +290,8 @@
 				700580961BA65E85008B0797 /* Images.xcassets */,
 				700580981BA65E85008B0797 /* LaunchScreen.xib */,
 				700580891BA65E85008B0797 /* Supporting Files */,
+				27EB77E21BDAD0A700E19C57 /* MidIndexFinder.h */,
+				27EB77E31BDAD0A700E19C57 /* MidIndexFinder.m */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -307,6 +314,7 @@
 				70CAF2C81BA869A500307561 /* DynamicProgramming */,
 				70CAF2B01BA79A1600307561 /* Graphs */,
 				700580B51BA65FB4008B0797 /* Supporting Files */,
+				27EB77E51BDAD0C100E19C57 /* ToptalExerciseSpec.m */,
 			);
 			path = AlgorithmsSpecs;
 			sourceTree = "<group>";
@@ -717,6 +725,7 @@
 				706A1B1F1BB5BC95002C71DE /* StackNode.m in Sources */,
 				27EB77D31BD576C800E19C57 /* GraphNode.m in Sources */,
 				704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */,
+				27EB77E41BDAD0A700E19C57 /* MidIndexFinder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,6 +747,7 @@
 				273EAE271BCC10BC003A873D /* PrimeNumbersSpec.m in Sources */,
 				709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */,
 				27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */,
+				27EB77E61BDAD0C100E19C57 /* ToptalExerciseSpec.m in Sources */,
 				709DF1C01BBEC2F6007F6ED0 /* HanoiTowerSpec.m in Sources */,
 				27B4CE571BBED40E00E23CCD /* BinarySearchTreeSpec.m in Sources */,
 				709DF1C71BBEC300007F6ED0 /* LinkedListLoopSpec.m in Sources */,
