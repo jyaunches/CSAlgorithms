@@ -1,19 +1,19 @@
 //
-//  VariousSpecs.m
+//  BitOppositesSpec.m
 //  Algorithms
 //
-//  Created by Julietta Yaunches on 9/29/15.
+//  Created by Julietta Yaunches on 10/24/15.
 //  Copyright (c) 2015 yaunches. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
 
-@interface VariousSpecs : NSObject
+@interface BitOppositesSpec : NSObject
 
 @end
 
-@implementation VariousSpecs
+@implementation BitOppositesSpec
 
 - (void)setUp {
     [super setUp];

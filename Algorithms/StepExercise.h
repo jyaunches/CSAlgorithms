@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MidIndexFinder : NSObject
-- (id)initWithThing:(NSMutableArray *)array;
-- (int)findFor:(int)target;
+@interface StepExercise : NSObject
+- (id)initWithMoves:(NSMutableArray *)array;
+- (int)findFor:(NSArray *)location;
 @end

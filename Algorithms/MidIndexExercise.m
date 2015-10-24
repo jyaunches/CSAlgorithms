@@ -6,18 +6,18 @@
 //  Copyright (c) 2015 yaunches. All rights reserved.
 //
 
-#import "MidIndexFinder.h"
+#import "MidIndexExercise.h"
 
 static const int NO_EQUILIBRIUM_YET_FOUND = -1;
 
-@interface MidIndexFinder ()
+@interface MidIndexExercise ()
 @property(nonatomic, strong) NSMutableArray *array;
 @property(nonatomic) int equilibriumIndexValue;
 @property(nonatomic) int target;
 @end
 
-@implementation MidIndexFinder
-- (id)initWithThing:(NSMutableArray *)array {
+@implementation MidIndexExercise
+- (id)initWithArray:(NSMutableArray *)array {
     self = [super init];
     self.array = array;
     self.equilibriumIndexValue = NO_EQUILIBRIUM_YET_FOUND;
