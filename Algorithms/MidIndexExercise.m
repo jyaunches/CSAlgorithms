@@ -26,9 +26,6 @@ static const int NO_EQUILIBRIUM_YET_FOUND = -1;
 }
 
 - (int)findFor:(int)target {
-    if(self.array.count == 0){
-        return NO_EQUILIBRIUM_YET_FOUND;
-    }
     self.target = target;
     int foundBehind = 0;
     int startIndex = 0;
@@ -38,22 +35,19 @@ static const int NO_EQUILIBRIUM_YET_FOUND = -1;
 
 - (int)findCountOfNoneAheadAndCheckGivenCountBehind:(int)behindCount andIndex:(int)index {
     if (index == self.array.count) {
+        self.equilibriumIndexValue = index;
         return 0;
     }
 
     NSNumber *curValue = self.array[index];
     BOOL currentValueMatchesTarget = curValue.intValue == self.target;
 
-    int newBehind = currentValueMatchesTarget ? behindCount +1 : behindCount;
+    int newBehind = currentValueMatchesTarget ? behindCount + 1 : behindCount;
     int nonMatchingCountAhead = [self findCountOfNoneAheadAndCheckGivenCountBehind:newBehind andIndex:index + 1];
     int newNoneMatchingAhead = currentValueMatchesTarget ? nonMatchingCountAhead : nonMatchingCountAhead + 1;
 
-    if(self.equilibriumIndexValue == NO_EQUILIBRIUM_YET_FOUND){
-        BOOL aheadCriteriaMet = newNoneMatchingAhead == curValue.intValue;
-        BOOL behindCriteriaMet = behindCount == curValue.intValue;
-        if(aheadCriteriaMet && behindCriteriaMet){
-            self.equilibriumIndexValue = index;
-        }
+    if (newNoneMatchingAhead == behindCount) {
+        self.equilibriumIndexValue = index;
     }
 
     return newNoneMatchingAhead;
