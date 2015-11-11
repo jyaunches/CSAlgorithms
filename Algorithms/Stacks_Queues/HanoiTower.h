@@ -10,11 +10,5 @@
 #import "Tower.h"
 
 @interface HanoiTower : NSObject
-@property(nonatomic, strong) Tower *towerC;
-@property(nonatomic, strong) Tower *towerB;
-@property(nonatomic, strong) Tower *towerA;
-
-- (id)initWithDisks:(int)diskNumber;
-
 - (void)transferDisks:(int)numberOfDisks from:(Tower *)origin to:(Tower *)destination buffer:(Tower *)buffer;
 @end

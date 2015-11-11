@@ -14,19 +14,19 @@
 SPEC_BEGIN(HanoiTowerSpec)
 describe(@"HanoiTower", ^{
 
-    it(@"should initialize specified disks onto tower A", ^{
-        HanoiTower *hanoiTowers = [[HanoiTower alloc] initWithDisks:3];
-        [[@([hanoiTowers.towerA count]) should] equal:@(3)];
-        [[@([hanoiTowers.towerB count]) should] equal:@(0)];
-        [[@([hanoiTowers.towerC count]) should] equal:@(0)];
-    });
-
     it(@"should move 5 disks from tower A to tower B", ^{
-        HanoiTower *hanoiTowers = [[HanoiTower alloc] initWithDisks:5];
+        HanoiTower *hanoiTowers = [[HanoiTower alloc] init];
 
-        [[@([hanoiTowers.towerC count]) should] equal:@(0)];
-        [hanoiTowers transferDisks:5 from:hanoiTowers.towerA to:hanoiTowers.towerC buffer:hanoiTowers.towerB];
-        [[@([hanoiTowers.towerC count]) should] equal:@(5)];
+        Tower *towerA = [[Tower alloc] initWithName:@"A"];
+        Tower *towerB = [[Tower alloc] initWithName:@"B"];
+        Tower *towerC = [[Tower alloc] initWithName:@"C"];
+        for (int i = 5; i > 0; i--) {
+            [towerA push:@(i)];
+        }
+
+        [[@([towerC count]) should] equal:@(0)];
+        [hanoiTowers transferDisks:5 from:towerA to:towerC buffer:towerB];
+        [[@([towerC count]) should] equal:@(5)];
     });
     
 });
