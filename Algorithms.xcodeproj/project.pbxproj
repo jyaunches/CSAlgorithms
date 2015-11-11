@@ -25,12 +25,8 @@
 		27EB77DC1BD6F62700E19C57 /* ShortestPathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77DB1BD6F62700E19C57 /* ShortestPathSpec.m */; };
 		27EB77DE1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77DD1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m */; };
 		27EB77E11BDA849400E19C57 /* EquilibriumCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */; };
-		27EB77E41BDAD0A700E19C57 /* MidIndexExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E31BDAD0A700E19C57 /* MidIndexExercise.m */; };
-		27EB77E61BDAD0C100E19C57 /* MidIndexExerciseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E51BDAD0C100E19C57 /* MidIndexExerciseSpec.m */; };
-		27EB77E81BDBC7D600E19C57 /* StepExerciseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77E71BDBC7D600E19C57 /* StepExerciseSpec.m */; };
-		27EB77EB1BDBC7E200E19C57 /* StepExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77EA1BDBC7E200E19C57 /* StepExercise.m */; };
-		27EB77ED1BDBD1D100E19C57 /* BitOppositesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77EC1BDBD1D100E19C57 /* BitOppositesSpec.m */; };
-		27EB77F01BDBD1E800E19C57 /* BitOpposites.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EB77EF1BDBD1E800E19C57 /* BitOpposites.m */; };
+		27F210761BF4052500AAC32F /* MidIndexExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F210741BF4052500AAC32F /* MidIndexExercise.m */; };
+		27F210781BF4056600AAC32F /* MidIndexExerciseSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F210771BF4056600AAC32F /* MidIndexExerciseSpec.m */; };
 		7005808C1BA65E85008B0797 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808B1BA65E85008B0797 /* main.m */; };
 		7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7005808E1BA65E85008B0797 /* AppDelegate.m */; };
 		700580921BA65E85008B0797 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700580911BA65E85008B0797 /* ViewController.m */; };
@@ -55,7 +51,6 @@
 		709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1A81BBEC14D007F6ED0 /* LinkedNode.m */; };
 		709DF1AE1BBEC16A007F6ED0 /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1AC1BBEC16A007F6ED0 /* BinarySearch.m */; };
 		709DF1B91BBEC175007F6ED0 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B01BBEC175007F6ED0 /* BubbleSort.m */; };
-		709DF1BA1BBEC175007F6ED0 /* NSMutableArray+HeapSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B21BBEC175007F6ED0 /* NSMutableArray+HeapSort.m */; };
 		709DF1BB1BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B41BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m */; };
 		709DF1BC1BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B61BBEC175007F6ED0 /* NSMutableArray+SelectionSort.m */; };
 		709DF1BD1BBEC175007F6ED0 /* MergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1B71BBEC175007F6ED0 /* MergeSort.m */; };
@@ -117,15 +112,9 @@
 		27EB77DD1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquilibriumCalculatorSpec.m; path = Lists/EquilibriumCalculatorSpec.m; sourceTree = "<group>"; };
 		27EB77DF1BDA849400E19C57 /* EquilibriumCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EquilibriumCalculator.h; path = Lists/EquilibriumCalculator.h; sourceTree = "<group>"; };
 		27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquilibriumCalculator.m; path = Lists/EquilibriumCalculator.m; sourceTree = "<group>"; };
-		27EB77E21BDAD0A700E19C57 /* MidIndexExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidIndexExercise.h; sourceTree = "<group>"; };
-		27EB77E31BDAD0A700E19C57 /* MidIndexExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidIndexExercise.m; sourceTree = "<group>"; };
-		27EB77E51BDAD0C100E19C57 /* MidIndexExerciseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MidIndexExerciseSpec.m; sourceTree = "<group>"; };
-		27EB77E71BDBC7D600E19C57 /* StepExerciseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepExerciseSpec.m; sourceTree = "<group>"; };
-		27EB77E91BDBC7E200E19C57 /* StepExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepExercise.h; sourceTree = "<group>"; };
-		27EB77EA1BDBC7E200E19C57 /* StepExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepExercise.m; sourceTree = "<group>"; };
-		27EB77EC1BDBD1D100E19C57 /* BitOppositesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitOppositesSpec.m; sourceTree = "<group>"; };
-		27EB77EE1BDBD1E800E19C57 /* BitOpposites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitOpposites.h; sourceTree = "<group>"; };
-		27EB77EF1BDBD1E800E19C57 /* BitOpposites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitOpposites.m; sourceTree = "<group>"; };
+		27F210741BF4052500AAC32F /* MidIndexExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidIndexExercise.m; path = Lists/MidIndexExercise.m; sourceTree = "<group>"; };
+		27F210751BF4052500AAC32F /* MidIndexExercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MidIndexExercise.h; path = Lists/MidIndexExercise.h; sourceTree = "<group>"; };
+		27F210771BF4056600AAC32F /* MidIndexExerciseSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MidIndexExerciseSpec.m; path = Lists/MidIndexExerciseSpec.m; sourceTree = "<group>"; };
 		3E71429B7ED3402069BDED8A /* Pods_AlgorithmsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgorithmsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A89097BBF08581C7EEEB5FC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6B4C493E0600F804B6D26EE1 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -177,8 +166,6 @@
 		709DF1AD1BBEC16A007F6ED0 /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BinarySearch.h; path = Lists/Searching/BinarySearch.h; sourceTree = "<group>"; };
 		709DF1AF1BBEC175007F6ED0 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BubbleSort.h; path = Lists/Sorting/BubbleSort.h; sourceTree = "<group>"; };
 		709DF1B01BBEC175007F6ED0 /* BubbleSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BubbleSort.m; path = Lists/Sorting/BubbleSort.m; sourceTree = "<group>"; };
-		709DF1B11BBEC175007F6ED0 /* NSMutableArray+HeapSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+HeapSort.h"; path = "Lists/Sorting/NSMutableArray+HeapSort.h"; sourceTree = "<group>"; };
-		709DF1B21BBEC175007F6ED0 /* NSMutableArray+HeapSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+HeapSort.m"; path = "Lists/Sorting/NSMutableArray+HeapSort.m"; sourceTree = "<group>"; };
 		709DF1B31BBEC175007F6ED0 /* NSMutableArray+InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+InsertionSort.h"; path = "Lists/Sorting/NSMutableArray+InsertionSort.h"; sourceTree = "<group>"; };
 		709DF1B41BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+InsertionSort.m"; path = "Lists/Sorting/NSMutableArray+InsertionSort.m"; sourceTree = "<group>"; };
 		709DF1B51BBEC175007F6ED0 /* NSMutableArray+SelectionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SelectionSort.h"; path = "Lists/Sorting/NSMutableArray+SelectionSort.h"; sourceTree = "<group>"; };
@@ -296,10 +283,6 @@
 		700580881BA65E85008B0797 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				27EB77E21BDAD0A700E19C57 /* MidIndexExercise.h */,
-				27EB77E31BDAD0A700E19C57 /* MidIndexExercise.m */,
-				27EB77E91BDBC7E200E19C57 /* StepExercise.h */,
-				27EB77EA1BDBC7E200E19C57 /* StepExercise.m */,
 				273EAE241BCC1096003A873D /* Math_Probability */,
 				706A1B161BB5BC63002C71DE /* Stacks_Queues */,
 				704E3A921BA9B1B400974504 /* Lists */,
@@ -314,8 +297,6 @@
 				700580961BA65E85008B0797 /* Images.xcassets */,
 				700580981BA65E85008B0797 /* LaunchScreen.xib */,
 				700580891BA65E85008B0797 /* Supporting Files */,
-				27EB77EE1BDBD1E800E19C57 /* BitOpposites.h */,
-				27EB77EF1BDBD1E800E19C57 /* BitOpposites.m */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -332,9 +313,6 @@
 		700580B41BA65FB4008B0797 /* AlgorithmsSpecs */ = {
 			isa = PBXGroup;
 			children = (
-				27EB77EC1BDBD1D100E19C57 /* BitOppositesSpec.m */,
-				27EB77E51BDAD0C100E19C57 /* MidIndexExerciseSpec.m */,
-				27EB77E71BDBC7D600E19C57 /* StepExerciseSpec.m */,
 				273EAE251BCC10A5003A873D /* Math_Probablity */,
 				706A1B201BB5BC9D002C71DE /* Stacks_Queues */,
 				704E3ABA1BA9B28D00974504 /* Lists */,
@@ -414,6 +392,8 @@
 				704E3ABE1BA9B7D000974504 /* LinkedList.m */,
 				27EB77DF1BDA849400E19C57 /* EquilibriumCalculator.h */,
 				27EB77E01BDA849400E19C57 /* EquilibriumCalculator.m */,
+				27F210741BF4052500AAC32F /* MidIndexExercise.m */,
+				27F210751BF4052500AAC32F /* MidIndexExercise.h */,
 			);
 			name = Lists;
 			sourceTree = "<group>";
@@ -421,6 +401,7 @@
 		704E3ABA1BA9B28D00974504 /* Lists */ = {
 			isa = PBXGroup;
 			children = (
+				27F210771BF4056600AAC32F /* MidIndexExerciseSpec.m */,
 				27B4CE4E1BBEC6AF00E23CCD /* BinarySearchSpec.m */,
 				709DF1C21BBEC300007F6ED0 /* LinkedListBasicsSpec.m */,
 				709DF1C31BBEC300007F6ED0 /* LinkedListLoopSpec.m */,
@@ -462,8 +443,6 @@
 			children = (
 				709DF1AF1BBEC175007F6ED0 /* BubbleSort.h */,
 				709DF1B01BBEC175007F6ED0 /* BubbleSort.m */,
-				709DF1B11BBEC175007F6ED0 /* NSMutableArray+HeapSort.h */,
-				709DF1B21BBEC175007F6ED0 /* NSMutableArray+HeapSort.m */,
 				709DF1B31BBEC175007F6ED0 /* NSMutableArray+InsertionSort.h */,
 				709DF1B41BBEC175007F6ED0 /* NSMutableArray+InsertionSort.m */,
 				709DF1B51BBEC175007F6ED0 /* NSMutableArray+SelectionSort.h */,
@@ -719,7 +698,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27EB77F01BDBD1E800E19C57 /* BitOpposites.m in Sources */,
 				709DF1BD1BBEC175007F6ED0 /* MergeSort.m in Sources */,
 				273EAE231BC6B3C3003A873D /* BinaryTreeAncestorFinder.m in Sources */,
 				709DF1B91BBEC175007F6ED0 /* BubbleSort.m in Sources */,
@@ -741,13 +719,12 @@
 				709DF1AE1BBEC16A007F6ED0 /* BinarySearch.m in Sources */,
 				704E3AAB1BA9B1D600974504 /* BreadthFirstSearch.m in Sources */,
 				704E3A9A1BA9B1CE00974504 /* NSMutableArray+QueueHelper.m in Sources */,
+				27F210761BF4052500AAC32F /* MidIndexExercise.m in Sources */,
 				7005808F1BA65E85008B0797 /* AppDelegate.m in Sources */,
-				709DF1BA1BBEC175007F6ED0 /* NSMutableArray+HeapSort.m in Sources */,
 				70FF03421BD7D57B007AEE01 /* DijkstraGraph.m in Sources */,
 				706A1B251BB5BCCA002C71DE /* NSNumber+Helpers.m in Sources */,
 				70FF033D1BD7CE16007AEE01 /* WeightedChildNode.m in Sources */,
 				27EB77D71BD576E700E19C57 /* BinaryTree.m in Sources */,
-				27EB77EB1BDBC7E200E19C57 /* StepExercise.m in Sources */,
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
 				709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */,
 				704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */,
@@ -758,7 +735,6 @@
 				706A1B1F1BB5BC95002C71DE /* StackNode.m in Sources */,
 				27EB77D31BD576C800E19C57 /* GraphNode.m in Sources */,
 				704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */,
-				27EB77E41BDAD0A700E19C57 /* MidIndexExercise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -766,6 +742,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F210781BF4056600AAC32F /* MidIndexExerciseSpec.m in Sources */,
 				273EAE201BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m in Sources */,
 				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
 				27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */,
@@ -781,10 +758,7 @@
 				273EAE271BCC10BC003A873D /* PrimeNumbersSpec.m in Sources */,
 				709DF1C91BBEC300007F6ED0 /* PalindromeDetectionSpec.m in Sources */,
 				27B4CE4F1BBEC6AF00E23CCD /* BinarySearchSpec.m in Sources */,
-				27EB77E61BDAD0C100E19C57 /* MidIndexExerciseSpec.m in Sources */,
-				27EB77E81BDBC7D600E19C57 /* StepExerciseSpec.m in Sources */,
 				709DF1C01BBEC2F6007F6ED0 /* HanoiTowerSpec.m in Sources */,
-				27EB77ED1BDBD1D100E19C57 /* BitOppositesSpec.m in Sources */,
 				27B4CE571BBED40E00E23CCD /* BinarySearchTreeSpec.m in Sources */,
 				709DF1C71BBEC300007F6ED0 /* LinkedListLoopSpec.m in Sources */,
 				709DF1C11BBEC2F6007F6ED0 /* StackSpec.m in Sources */,

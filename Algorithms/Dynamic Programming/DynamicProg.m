@@ -18,7 +18,7 @@
             if (coinValue.intValue == currentSum) {
                 subSums[@(currentSum)] = @[coinValue];
             } else if (coinValue.intValue < currentSum) {
-                int difference = currentSum - coinValue.intValue;
+                NSUInteger difference = currentSum - coinValue.intValue;
                 NSArray *calcSubSumForDiff = subSums[@(difference)];
                 if (calcSubSumForDiff.count > 0) {
                     subSums[@(currentSum)] = [calcSubSumForDiff arrayByAddingObject:coinValue];

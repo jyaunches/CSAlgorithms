@@ -59,7 +59,6 @@ describe(@"CourseOrderer", ^{
 
         [[@(result.count) should] equal:@(10)];
 
-        __block int lastCourseNumber = 0;
         [result each:^(GraphNode *course) {
             NSLog(@"Course: %i", course.value);
         }];

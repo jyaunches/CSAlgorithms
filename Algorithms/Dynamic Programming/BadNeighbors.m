@@ -44,7 +44,7 @@
 
 - (NSNumber *)findHighest:(NSArray *)allDonations {
     self.allDonations = allDonations;
-    int donationsSize = allDonations.count;
+    NSUInteger donationsSize = allDonations.count;
     self.donationDictionary = [NSMutableDictionary dictionary];
 
     NSNumber *maxEvenDonations = [self getDonationsInRangeWithStartIndex:0 andUpperIndex:donationsSize - 2];

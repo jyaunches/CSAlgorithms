@@ -23,8 +23,6 @@ SPEC_BEGIN(BinaryTreePathValueFinderSpec)
             //        /       /
             //       13      0
             it(@"should find all paths that sum to 5", ^{
-                NSArray *expectedPaths = @[@"3-2", @"1-3-1", @"5", @"5-0"];
-
                 BinaryTreeNode *node1 = [[BinaryTreeNode alloc] initWithValue:1];
                 BinaryTreeNode *node3 = [[BinaryTreeNode alloc] initWithValue:3];
                 BinaryTreeNode *node2 = [[BinaryTreeNode alloc] initWithValue:2];
