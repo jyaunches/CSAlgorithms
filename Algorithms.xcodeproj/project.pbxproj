@@ -38,7 +38,6 @@
 		704E3AA91BA9B1D600974504 /* CourseOrderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3A9E1BA9B1D600974504 /* CourseOrderer.m */; };
 		704E3AAB1BA9B1D600974504 /* BreadthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AA21BA9B1D600974504 /* BreadthFirstSearch.m */; };
 		704E3AAC1BA9B1D600974504 /* DepthFirstSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AA31BA9B1D600974504 /* DepthFirstSearch.m */; };
-		704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AAE1BA9B1E600974504 /* BadNeighbors.m */; };
 		704E3AB51BA9B1E600974504 /* DynamicProg.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB01BA9B1E600974504 /* DynamicProg.m */; };
 		704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3AB21BA9B1E600974504 /* DigitSum.m */; };
 		704E3ABF1BA9B7D000974504 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 704E3ABE1BA9B7D000974504 /* LinkedList.m */; };
@@ -46,6 +45,7 @@
 		706A1B1E1BB5BC95002C71DE /* MinStackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A1B1A1BB5BC95002C71DE /* MinStackNode.m */; };
 		706A1B1F1BB5BC95002C71DE /* StackNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A1B1C1BB5BC95002C71DE /* StackNode.m */; };
 		706A1B251BB5BCCA002C71DE /* NSNumber+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 706A1B241BB5BCCA002C71DE /* NSNumber+Helpers.m */; };
+		708495E51BFD672E005AEAA7 /* DijkstraShortestPathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 708495E41BFD672E005AEAA7 /* DijkstraShortestPathSpec.m */; };
 		709DF1A51BBEC0BD007F6ED0 /* HanoiTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1A21BBEC0BD007F6ED0 /* HanoiTower.m */; };
 		709DF1A61BBEC0BD007F6ED0 /* Tower.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1A41BBEC0BD007F6ED0 /* Tower.m */; };
 		709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1A81BBEC14D007F6ED0 /* LinkedNode.m */; };
@@ -64,9 +64,7 @@
 		709DF1CF1BBEC327007F6ED0 /* CourseOrdererSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CB1BBEC327007F6ED0 /* CourseOrdererSpec.m */; };
 		709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */; };
 		70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */; };
-		70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */; };
 		70FF033D1BD7CE16007AEE01 /* WeightedChildNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF033C1BD7CE16007AEE01 /* WeightedChildNode.m */; };
-		70FF033F1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF033E1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m */; };
 		70FF03421BD7D57B007AEE01 /* DijkstraGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FF03411BD7D57B007AEE01 /* DijkstraGraph.m */; };
 		FBB3952C1B3BA8141A0A2F20 /* Pods_AlgorithmsSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC630C79722D8D96D805DC97 /* Pods_AlgorithmsSpecs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		FF38D1B6B14C02FA87BCE5DE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4C493E0600F804B6D26EE1 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -140,8 +138,6 @@
 		704E3AA31BA9B1D600974504 /* DepthFirstSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DepthFirstSearch.m; path = Graphs/DepthFirstSearch.m; sourceTree = "<group>"; };
 		704E3AA41BA9B1D600974504 /* DepthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DepthFirstSearch.h; path = Graphs/DepthFirstSearch.h; sourceTree = "<group>"; };
 		704E3AA61BA9B1D600974504 /* BreadthFirstSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BreadthFirstSearch.h; path = Graphs/BreadthFirstSearch.h; sourceTree = "<group>"; };
-		704E3AAE1BA9B1E600974504 /* BadNeighbors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadNeighbors.m; path = "Dynamic Programming/BadNeighbors.m"; sourceTree = "<group>"; };
-		704E3AAF1BA9B1E600974504 /* BadNeighbors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BadNeighbors.h; path = "Dynamic Programming/BadNeighbors.h"; sourceTree = "<group>"; };
 		704E3AB01BA9B1E600974504 /* DynamicProg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicProg.m; path = "Dynamic Programming/DynamicProg.m"; sourceTree = "<group>"; };
 		704E3AB11BA9B1E600974504 /* DynamicProg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicProg.h; path = "Dynamic Programming/DynamicProg.h"; sourceTree = "<group>"; };
 		704E3AB21BA9B1E600974504 /* DigitSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DigitSum.m; path = "Dynamic Programming/DigitSum.m"; sourceTree = "<group>"; };
@@ -156,6 +152,7 @@
 		706A1B1C1BB5BC95002C71DE /* StackNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StackNode.m; path = Stacks_Queues/StackNode.m; sourceTree = "<group>"; };
 		706A1B231BB5BCCA002C71DE /* NSNumber+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Helpers.h"; path = "Helpers/NSNumber+Helpers.h"; sourceTree = "<group>"; };
 		706A1B241BB5BCCA002C71DE /* NSNumber+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Helpers.m"; path = "Helpers/NSNumber+Helpers.m"; sourceTree = "<group>"; };
+		708495E41BFD672E005AEAA7 /* DijkstraShortestPathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DijkstraShortestPathSpec.m; path = Graphs/DijkstraShortestPathSpec.m; sourceTree = "<group>"; };
 		709DF1A11BBEC0BD007F6ED0 /* HanoiTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HanoiTower.h; path = Stacks_Queues/HanoiTower.h; sourceTree = "<group>"; };
 		709DF1A21BBEC0BD007F6ED0 /* HanoiTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HanoiTower.m; path = Stacks_Queues/HanoiTower.m; sourceTree = "<group>"; };
 		709DF1A31BBEC0BD007F6ED0 /* Tower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tower.h; path = Stacks_Queues/Tower.h; sourceTree = "<group>"; };
@@ -182,10 +179,8 @@
 		709DF1CB1BBEC327007F6ED0 /* CourseOrdererSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseOrdererSpec.m; path = Graphs/CourseOrdererSpec.m; sourceTree = "<group>"; };
 		709DF1CD1BBEC327007F6ED0 /* GraphSearchSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphSearchSpec.m; path = Graphs/GraphSearchSpec.m; sourceTree = "<group>"; };
 		70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicProgSpecs.m; path = DynamicProgramming/DynamicProgSpecs.m; sourceTree = "<group>"; };
-		70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadNeighborsSpec.m; path = DynamicProgramming/BadNeighborsSpec.m; sourceTree = "<group>"; };
 		70FF033B1BD7CE16007AEE01 /* WeightedChildNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightedChildNode.h; path = Graphs/Helpers/WeightedChildNode.h; sourceTree = "<group>"; };
 		70FF033C1BD7CE16007AEE01 /* WeightedChildNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightedChildNode.m; path = Graphs/Helpers/WeightedChildNode.m; sourceTree = "<group>"; };
-		70FF033E1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DijkstraShortestPathSpec.m; path = Graphs/DijkstraShortestPathSpec.m; sourceTree = "<group>"; };
 		70FF03401BD7D57B007AEE01 /* DijkstraGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DijkstraGraph.h; path = Graphs/DijkstraGraph.h; sourceTree = "<group>"; };
 		70FF03411BD7D57B007AEE01 /* DijkstraGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DijkstraGraph.m; path = Graphs/DijkstraGraph.m; sourceTree = "<group>"; };
 		AAE63D07517EB83147E4928E /* Pods-AlgorithmsSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgorithmsSpecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlgorithmsSpecs/Pods-AlgorithmsSpecs.release.xcconfig"; sourceTree = "<group>"; };
@@ -334,8 +329,6 @@
 		704E3A8F1BA9B1A100974504 /* Dynamic Programming */ = {
 			isa = PBXGroup;
 			children = (
-				704E3AAE1BA9B1E600974504 /* BadNeighbors.m */,
-				704E3AAF1BA9B1E600974504 /* BadNeighbors.h */,
 				704E3AB01BA9B1E600974504 /* DynamicProg.m */,
 				704E3AB11BA9B1E600974504 /* DynamicProg.h */,
 				704E3AB21BA9B1E600974504 /* DigitSum.m */,
@@ -467,6 +460,7 @@
 		70CAF2B01BA79A1600307561 /* Graphs */ = {
 			isa = PBXGroup;
 			children = (
+				708495E41BFD672E005AEAA7 /* DijkstraShortestPathSpec.m */,
 				273EAE1D1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m */,
 				273EAE1E1BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m */,
 				709DF1CA1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m */,
@@ -475,7 +469,6 @@
 				27B4CE561BBED40E00E23CCD /* BinarySearchTreeSpec.m */,
 				27B4CE661BC31F7C00E23CCD /* DirectedGraphSpec.m */,
 				27EB77DB1BD6F62700E19C57 /* ShortestPathSpec.m */,
-				70FF033E1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m */,
 			);
 			name = Graphs;
 			sourceTree = "<group>";
@@ -484,7 +477,6 @@
 			isa = PBXGroup;
 			children = (
 				70FF03371BBEC3C9007AEE01 /* DynamicProgSpecs.m */,
-				70FF03381BBEC3C9007AEE01 /* BadNeighborsSpec.m */,
 			);
 			name = DynamicProgramming;
 			sourceTree = "<group>";
@@ -727,7 +719,6 @@
 				27EB77D71BD576E700E19C57 /* BinaryTree.m in Sources */,
 				704E3AB61BA9B1E600974504 /* DigitSum.m in Sources */,
 				709DF1A91BBEC14D007F6ED0 /* LinkedNode.m in Sources */,
-				704E3AB41BA9B1E600974504 /* BadNeighbors.m in Sources */,
 				27B4CE621BC3195E00E23CCD /* DirectedGraph.m in Sources */,
 				7005808C1BA65E85008B0797 /* main.m in Sources */,
 				27EB77C11BD47E6800E19C57 /* PrimeNumber.m in Sources */,
@@ -744,15 +735,14 @@
 			files = (
 				27F210781BF4056600AAC32F /* MidIndexExerciseSpec.m in Sources */,
 				273EAE201BC4467E003A873D /* BinaryTreeAncestorFinderSpec.m in Sources */,
-				70FF033A1BBEC3C9007AEE01 /* BadNeighborsSpec.m in Sources */,
 				27B4CE671BC31F7C00E23CCD /* DirectedGraphSpec.m in Sources */,
 				70FF03391BBEC3C9007AEE01 /* DynamicProgSpecs.m in Sources */,
-				70FF033F1BD7CFE2007AEE01 /* DijkstraShortestPathSpec.m in Sources */,
 				709DF1CF1BBEC327007F6ED0 /* CourseOrdererSpec.m in Sources */,
 				273EAE1F1BC4467E003A873D /* BinaryTreePathValueFinderSpec.m in Sources */,
 				709DF1C81BBEC300007F6ED0 /* ListSortSpec.m in Sources */,
 				709DF1D11BBEC327007F6ED0 /* GraphSearchSpec.m in Sources */,
 				709DF1CE1BBEC327007F6ED0 /* DetectConnectedComponentsSpec.m in Sources */,
+				708495E51BFD672E005AEAA7 /* DijkstraShortestPathSpec.m in Sources */,
 				27EB77DE1BDA847D00E19C57 /* EquilibriumCalculatorSpec.m in Sources */,
 				27EB77DC1BD6F62700E19C57 /* ShortestPathSpec.m in Sources */,
 				273EAE271BCC10BC003A873D /* PrimeNumbersSpec.m in Sources */,
